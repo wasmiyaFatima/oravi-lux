@@ -1,0 +1,632 @@
+{
+  "meta": {
+    "title": "Oravi Lux | Concierge- & Hospitality-Partner in Luxemburg",
+    "description": "Ihr vertrauenswürdiger Concierge- und Hospitality-Partner in Luxemburg. Maßgeschneidertes Lifestyle-Management, Corporate Support, Relocation und VIP-Hospitality."
+  },
+  "nav": {
+    "home": "Startseite",
+    "about": "Über uns",
+    "services": "Leistungen",
+    "approach": "Prozess",
+    "work": "Kunden",
+    "contact": "Kontakt",
+    "speak": "Beratung",
+    "language": "Sprache"
+  },
+  "services": {
+    "concierge": {
+      "cta": "Vertrauliche Beratung starten",
+      "ctaTitle": "Vertrauliche Beratung starten",
+      "ctaBody": "Sagen Sie uns, was Sie brauchen. Wir koordinieren den Rest.",
+      "introEyebrow": "Überblick",
+      "pointsTitle": "Was wir übernehmen",
+      "forWhomEyebrow": "Für wen",
+      "approachEyebrow": "So arbeiten wir",
+      "approachTitle": "Eine klare Methode für maßgeschneiderten Service",
+      "approachBody": "Einfach, vertraulich und verantwortlich — vom ersten Gespräch bis zur laufenden Unterstützung. Ein dedizierter Kontakt führt Koordination, Partnermanagement und Qualitäts-Follow-up.",
+      "approachSteps": [
+        "Beratung — Ein vertrauliches Erstgespräch, um zu verstehen, was Sie brauchen.",
+        "Bedarfsanalyse und personalisierte Lösung — Wir klären Prioritäten und gestalten maßgeschneiderte Unterstützung.",
+        "Umsetzung und laufende Unterstützung — Wir liefern mit Sorgfalt und bleiben verfügbar, wenn Bedürfnisse fortbestehen."
+      ],
+      "nav": "Concierge",
+      "title": "Unsere Concierge-Services",
+      "subtitle": "Alltägliche Anfragen. Außergewöhnliche Umsetzung.",
+      "body": "Von persönlicher Unterstützung bis zu VIP-Arrangements passt sich unser Service Ihrem Lebensstil und Ihren Standards an — alltägliche Anfragen mit außergewöhnlicher Sorgfalt und Umsetzung.",
+      "points": [
+        "Persönliche Unterstützung",
+        "Lifestyle-Management",
+        "VIP-Arrangements",
+        "Reservierungsservice",
+        "Luxus-Shopping-Assistance"
+      ],
+      "benefit": "",
+      "eyebrow": "Concierge-Services",
+      "introTitle": "Alltägliche Anfragen. Außergewöhnliche Umsetzung.",
+      "forWhomTitle": "Kunden, die erwarten, dass jedes Detail mit Sorgfalt behandelt wird",
+      "forWhomBody": "Für alle, die persönliche Unterstützung, Lifestyle-Management, VIP-Arrangements, Reservierungsservice und Luxus-Shopping-Assistance brauchen — angepasst an ihren Lebensstil und ihre Standards."
+    },
+    "corporate-concierge": {
+      "cta": "Vertrauliche Beratung starten",
+      "ctaTitle": "Vertrauliche Beratung starten",
+      "ctaBody": "Sagen Sie uns, was Sie brauchen. Wir koordinieren den Rest.",
+      "introEyebrow": "Überblick",
+      "pointsTitle": "Was wir übernehmen",
+      "forWhomEyebrow": "Für wen",
+      "approachEyebrow": "So arbeiten wir",
+      "approachTitle": "Eine klare Methode für maßgeschneiderten Service",
+      "approachBody": "Einfach, vertraulich und verantwortlich — vom ersten Gespräch bis zur laufenden Unterstützung. Ein dedizierter Kontakt führt Koordination, Partnermanagement und Qualitäts-Follow-up.",
+      "approachSteps": [
+        "Beratung — Ein vertrauliches Erstgespräch, um zu verstehen, was Sie brauchen.",
+        "Bedarfsanalyse und personalisierte Lösung — Wir klären Prioritäten und gestalten maßgeschneiderte Unterstützung.",
+        "Umsetzung und laufende Unterstützung — Wir liefern mit Sorgfalt und bleiben verfügbar, wenn Bedürfnisse fortbestehen."
+      ],
+      "nav": "Corporate Concierge",
+      "title": "Corporate-Concierge-Services",
+      "subtitle": "Executive-Produktivität ohne operative Reibung",
+      "body": "Wir unterstützen Führungsteams, Besuchskunden und Corporate Guests mit diskreter, präziser Koordination — damit Executive-Produktivität ohne operative Reibung weiterläuft.",
+      "points": [
+        "Executive Support",
+        "Administrative Unterstützung",
+        "Business-Travel-Koordination",
+        "Meeting- und Konferenzorganisation",
+        "Client-Hospitality-Management"
+      ],
+      "benefit": "Eine Premium-Erweiterung Ihres Executive Office. Dedizierte Koordination für zeitkritische, hochsichtbare Bedürfnisse — mit Diskretion auf Boardroom-Niveau.",
+      "eyebrow": "Corporate Concierge",
+      "introTitle": "Executive-Produktivität ohne operative Reibung",
+      "forWhomTitle": "Führungsteams, Besuchskunden und Corporate Guests",
+      "forWhomBody": "Für Organisationen, die diskrete, präzise Koordination für Executive Support, administrative Unterstützung, Business Travel, Meetings und Konferenzen sowie Client-Hospitality-Management brauchen."
+    },
+    "relocation": {
+      "cta": "Vertrauliche Beratung starten",
+      "ctaTitle": "Vertrauliche Beratung starten",
+      "ctaBody": "Sagen Sie uns, was Sie brauchen. Wir koordinieren den Rest.",
+      "introEyebrow": "Überblick",
+      "pointsTitle": "Was wir übernehmen",
+      "forWhomEyebrow": "Für wen",
+      "approachEyebrow": "So arbeiten wir",
+      "approachTitle": "Eine klare Methode für maßgeschneiderten Service",
+      "approachBody": "Einfach, vertraulich und verantwortlich — vom ersten Gespräch bis zur laufenden Unterstützung. Ein dedizierter Kontakt führt Koordination, Partnermanagement und Qualitäts-Follow-up.",
+      "approachSteps": [
+        "Beratung — Ein vertrauliches Erstgespräch, um zu verstehen, was Sie brauchen.",
+        "Bedarfsanalyse und personalisierte Lösung — Wir klären Prioritäten und gestalten maßgeschneiderte Unterstützung.",
+        "Umsetzung und laufende Unterstützung — Wir liefern mit Sorgfalt und bleiben verfügbar, wenn Bedürfnisse fortbestehen."
+      ],
+      "nav": "Relocation",
+      "title": "Relocation-Services",
+      "subtitle": "Von der Ankunft zum angekommenen Leben",
+      "body": "Ein reibungsloserer Übergang für internationale Fachkräfte, Expat-Familien und umziehende Führungskräfte — von der Ankunft zum angekommenen Leben.",
+      "points": [
+        "Wohnungssuche",
+        "Schulplatzierung",
+        "Immigration Support",
+        "Settling-in-Services",
+        "Hilfe bei Versorgungsanschlüssen"
+      ],
+      "benefit": "Wir koordinieren die praktischen, emotionalen und administrativen Details, die einen Umzug mühelos wirken lassen.",
+      "eyebrow": "Relocation-Services",
+      "introTitle": "Von der Ankunft zum angekommenen Leben",
+      "forWhomTitle": "Internationale Fachkräfte, Expat-Familien und umziehende Führungskräfte",
+      "forWhomBody": "Für Menschen, die während eines Umzugs Wohnungssuche, Schulplatzierung, Immigration Support, Settling-in-Services und Hilfe bei Versorgungsanschlüssen brauchen."
+    },
+    "hospitality": {
+      "cta": "Vertrauliche Beratung starten",
+      "ctaTitle": "Vertrauliche Beratung starten",
+      "ctaBody": "Sagen Sie uns, was Sie brauchen. Wir koordinieren den Rest.",
+      "introEyebrow": "Überblick",
+      "pointsTitle": "Was wir übernehmen",
+      "forWhomEyebrow": "Für wen",
+      "approachEyebrow": "So arbeiten wir",
+      "approachTitle": "Eine klare Methode für maßgeschneiderten Service",
+      "approachBody": "Einfach, vertraulich und verantwortlich — vom ersten Gespräch bis zur laufenden Unterstützung. Ein dedizierter Kontakt führt Koordination, Partnermanagement und Qualitäts-Follow-up.",
+      "approachSteps": [
+        "Beratung — Ein vertrauliches Erstgespräch, um zu verstehen, was Sie brauchen.",
+        "Bedarfsanalyse und personalisierte Lösung — Wir klären Prioritäten und gestalten maßgeschneiderte Unterstützung.",
+        "Umsetzung und laufende Unterstützung — Wir liefern mit Sorgfalt und bleiben verfügbar, wenn Bedürfnisse fortbestehen."
+      ],
+      "nav": "Hospitality",
+      "title": "Hospitality-Services",
+      "subtitle": "Erste Eindrücke, makellos gemanagt",
+      "body": "Gehobene Gästebetreuung für VIP-Besucher, Delegationen, Privatkunden und Corporate-Hospitality-Programme — erste Eindrücke, makellos gemanagt.",
+      "points": [
+        "Gästemanagement",
+        "Sourcing von Luxusunterkünften",
+        "VIP-Flughafenservices",
+        "Event-Hospitality",
+        "Private Chauffeur-Services",
+        "Host und Welcome Desk"
+      ],
+      "benefit": "Diskreter, pünktlicher und kultivierter Service im Einklang mit Premium-Hospitality-Erwartungen.",
+      "eyebrow": "Hospitality-Services",
+      "introTitle": "Erste Eindrücke, makellos gemanagt",
+      "forWhomTitle": "VIP-Besucher, Delegationen, Privatkunden und Corporate-Hospitality-Programme",
+      "forWhomBody": "Für Gäste und Gastgeber, die Gästemanagement, Sourcing von Luxusunterkünften, VIP-Flughafenservices, Event-Hospitality, private Chauffeur-Services sowie Host und Welcome Desk brauchen."
+    },
+    "personal-assistance": {
+      "cta": "Vertrauliche Beratung starten",
+      "ctaTitle": "Vertrauliche Beratung starten",
+      "ctaBody": "Sagen Sie uns, was Sie brauchen. Wir koordinieren den Rest.",
+      "introEyebrow": "Überblick",
+      "pointsTitle": "Was wir übernehmen",
+      "forWhomEyebrow": "Für wen",
+      "approachEyebrow": "So arbeiten wir",
+      "approachTitle": "Eine klare Methode für maßgeschneiderten Service",
+      "approachBody": "Einfach, vertraulich und verantwortlich — vom ersten Gespräch bis zur laufenden Unterstützung. Ein dedizierter Kontakt führt Koordination, Partnermanagement und Qualitäts-Follow-up.",
+      "approachSteps": [
+        "Beratung — Ein vertrauliches Erstgespräch, um zu verstehen, was Sie brauchen.",
+        "Bedarfsanalyse und personalisierte Lösung — Wir klären Prioritäten und gestalten maßgeschneiderte Unterstützung.",
+        "Umsetzung und laufende Unterstützung — Wir liefern mit Sorgfalt und bleiben verfügbar, wenn Bedürfnisse fortbestehen."
+      ],
+      "nav": "Persönliche Assistance",
+      "title": "Persönliche Assistance-Services",
+      "subtitle": "Ihr persönliches Office für Life-Admin",
+      "body": "Zeit zurück, weniger Unterbrechungen und ein vertrauenswürdiger Partner für die Details, die das Leben am Laufen halten — Ihr persönliches Office für Life-Admin.",
+      "points": [
+        "Tägliches Task-Management",
+        "Terminplanung",
+        "Home Management",
+        "Personal Shopping",
+        "Lifestyle-Organisation"
+      ],
+      "benefit": "Ein Concierge-Assistent kann wiederkehrende Aufgaben, Sonderwünsche und persönliche Prioritäten über einen einzigen dedizierten Kanal managen.",
+      "eyebrow": "Persönliche Assistance",
+      "introTitle": "Ihr persönliches Office für Life-Admin",
+      "forWhomTitle": "Kunden, die Zeit zurück und weniger Unterbrechungen wollen",
+      "forWhomBody": "Für Menschen, die tägliches Task-Management, Terminplanung, Home Management, Personal Shopping und Lifestyle-Organisation über einen vertrauenswürdigen Partner brauchen."
+    },
+    "executive-family-office": {
+      "cta": "Vertrauliche Beratung starten",
+      "ctaTitle": "Vertrauliche Beratung starten",
+      "ctaBody": "Sagen Sie uns, was Sie brauchen. Wir koordinieren den Rest.",
+      "introEyebrow": "Überblick",
+      "pointsTitle": "Was wir übernehmen",
+      "forWhomEyebrow": "Für wen",
+      "approachEyebrow": "So arbeiten wir",
+      "approachTitle": "Eine klare Methode für maßgeschneiderten Service",
+      "approachBody": "Einfach, vertraulich und verantwortlich — vom ersten Gespräch bis zur laufenden Unterstützung. Ein dedizierter Kontakt führt Koordination, Partnermanagement und Qualitäts-Follow-up.",
+      "approachSteps": [
+        "Beratung — Ein vertrauliches Erstgespräch, um zu verstehen, was Sie brauchen.",
+        "Bedarfsanalyse und personalisierte Lösung — Wir klären Prioritäten und gestalten maßgeschneiderte Unterstützung.",
+        "Umsetzung und laufende Unterstützung — Wir liefern mit Sorgfalt und bleiben verfügbar, wenn Bedürfnisse fortbestehen."
+      ],
+      "nav": "Executive & Family Office",
+      "title": "Executive- & Family-Office-Support",
+      "subtitle": "Vertrauliche Unterstützung für komplexe Leben",
+      "body": "Strukturierte Assistance für Führungskräfte, Unternehmer, Family Offices und Private-Banking-Kunden — vertrauliche Unterstützung für komplexe Leben.",
+      "points": [
+        "Kalendermanagement — Proaktive Terminplanung, Reminder und Koordination.",
+        "Reiseorganisation — Nahtlose Itineraries, Buchungssupport und Änderungen.",
+        "Event-Koordination — Private und berufliche Zusammenkünfte mit vertrauenswürdigen Partnern.",
+        "Vertrauliche Assistance — Diskrete Behandlung sensibler Anfragen und persönlicher Daten."
+      ],
+      "benefit": "Vertrauenswürdiges lokales Netzwerk | Mehrsprachige Koordination | Diskretion by Design",
+      "eyebrow": "Executive- & Family-Office-Support",
+      "introTitle": "Vertrauliche Unterstützung für komplexe Leben",
+      "forWhomTitle": "Führungskräfte, Unternehmer, Family Offices und Private-Banking-Kunden",
+      "forWhomBody": "Für Kunden, die strukturierte, vertrauliche Assistance für Kalendermanagement, Reiseorganisation, Event-Koordination und vertrauliche Assistance brauchen."
+    },
+    "luxury-travel": {
+      "cta": "Vertrauliche Beratung starten",
+      "ctaTitle": "Vertrauliche Beratung starten",
+      "ctaBody": "Sagen Sie uns, was Sie brauchen. Wir koordinieren den Rest.",
+      "introEyebrow": "Überblick",
+      "pointsTitle": "Was wir übernehmen",
+      "forWhomEyebrow": "Für wen",
+      "approachEyebrow": "So arbeiten wir",
+      "approachTitle": "Eine klare Methode für maßgeschneiderten Service",
+      "approachBody": "Einfach, vertraulich und verantwortlich — vom ersten Gespräch bis zur laufenden Unterstützung. Ein dedizierter Kontakt führt Koordination, Partnermanagement und Qualitäts-Follow-up.",
+      "approachSteps": [
+        "Beratung — Ein vertrauliches Erstgespräch, um zu verstehen, was Sie brauchen.",
+        "Bedarfsanalyse und personalisierte Lösung — Wir klären Prioritäten und gestalten maßgeschneiderte Unterstützung.",
+        "Umsetzung und laufende Unterstützung — Wir liefern mit Sorgfalt und bleiben verfügbar, wenn Bedürfnisse fortbestehen."
+      ],
+      "nav": "Luxury Travel",
+      "title": "Luxury Travel Management",
+      "subtitle": "Reisen rund um Ihre Zeit gestaltet",
+      "body": "Geschäftsreisen, private Escapes und VIP-Journeys mit Präzision von Tür zu Destination geplant — Reisen rund um Ihre Zeit gestaltet.",
+      "points": [
+        "Private-Jet-Koordination",
+        "Business Travel",
+        "Luxusurlaube",
+        "Hotelreservierungen",
+        "Concierge-Erlebnisse"
+      ],
+      "benefit": "Vom Itinerary-Design bis zu Last-Minute-Änderungen managt unser Team die beweglichen Teile, damit Sie sich auf die Ankunft konzentrieren können.",
+      "eyebrow": "Luxury Travel Management",
+      "introTitle": "Reisen rund um Ihre Zeit gestaltet",
+      "forWhomTitle": "Kunden, die Geschäftsreisen, private Escapes und VIP-Journeys planen",
+      "forWhomBody": "Für Reisende, die Private-Jet-Koordination, Business Travel, Luxusurlaube, Hotelreservierungen und Concierge-Erlebnisse brauchen."
+    },
+    "events": {
+      "cta": "Vertrauliche Beratung starten",
+      "ctaTitle": "Vertrauliche Beratung starten",
+      "ctaBody": "Sagen Sie uns, was Sie brauchen. Wir koordinieren den Rest.",
+      "introEyebrow": "Überblick",
+      "pointsTitle": "Was wir übernehmen",
+      "forWhomEyebrow": "Für wen",
+      "approachEyebrow": "So arbeiten wir",
+      "approachTitle": "Eine klare Methode für maßgeschneiderten Service",
+      "approachBody": "Einfach, vertraulich und verantwortlich — vom ersten Gespräch bis zur laufenden Unterstützung. Ein dedizierter Kontakt führt Koordination, Partnermanagement und Qualitäts-Follow-up.",
+      "approachSteps": [
+        "Beratung — Ein vertrauliches Erstgespräch, um zu verstehen, was Sie brauchen.",
+        "Bedarfsanalyse und personalisierte Lösung — Wir klären Prioritäten und gestalten maßgeschneiderte Unterstützung.",
+        "Umsetzung und laufende Unterstützung — Wir liefern mit Sorgfalt und bleiben verfügbar, wenn Bedürfnisse fortbestehen."
+      ],
+      "nav": "Events & Experiences",
+      "title": "Events & Experiences",
+      "subtitle": "Erinnerungswürdige Momente, makellos gehostet",
+      "body": "Kuratierte Events und exclusive Experiences für Corporate-, Privat- und Lifestyle-Anlässe — erinnerungswürdige Momente, makellos gehostet.",
+      "points": [
+        "Corporate Events",
+        "Private Events",
+        "Exklusive Experiences",
+        "Kulturelle Aktivitäten",
+        "Networking Events"
+      ],
+      "benefit": "Konzept, Location, Gastreise, Lieferanten und On-site-Hospitality unter einer Serviceleitung ausgerichtet.",
+      "eyebrow": "Events & Experiences",
+      "introTitle": "Erinnerungswürdige Momente, makellos gehostet",
+      "forWhomTitle": "Corporate-, Privat- und Lifestyle-Anlässe",
+      "forWhomBody": "Für Gastgeber, die Corporate Events, Private Events, exclusive Experiences, kulturelle Aktivitäten und Networking Events planen."
+    },
+    "property": {
+      "cta": "Vertrauliche Beratung starten",
+      "ctaTitle": "Vertrauliche Beratung starten",
+      "ctaBody": "Sagen Sie uns, was Sie brauchen. Wir koordinieren den Rest.",
+      "introEyebrow": "Überblick",
+      "pointsTitle": "Was wir übernehmen",
+      "forWhomEyebrow": "Für wen",
+      "approachEyebrow": "So arbeiten wir",
+      "approachTitle": "Eine klare Methode für maßgeschneiderten Service",
+      "approachBody": "Einfach, vertraulich und verantwortlich — vom ersten Gespräch bis zur laufenden Unterstützung. Ein dedizierter Kontakt führt Koordination, Partnermanagement und Qualitäts-Follow-up.",
+      "approachSteps": [
+        "Beratung — Ein vertrauliches Erstgespräch, um zu verstehen, was Sie brauchen.",
+        "Bedarfsanalyse und personalisierte Lösung — Wir klären Prioritäten und gestalten maßgeschneiderte Unterstützung.",
+        "Umsetzung und laufende Unterstützung — Wir liefern mit Sorgfalt und bleiben verfügbar, wenn Bedürfnisse fortbestehen."
+      ],
+      "nav": "Property & Lifestyle",
+      "title": "Property- & Lifestyle-Management",
+      "subtitle": "Ihre Immobilie, stets betreut",
+      "body": "Zuverlässige Supervision und Haushaltskoordination für Hauptwohnsitze, Zweitwohnsitze und Lifestyle-Assets — Ihre Immobilie, stets betreut.",
+      "points": [
+        "Property Supervision",
+        "Wartungskoordination",
+        "Haushalts-Personal",
+        "Zweitwohnsitz-Management"
+      ],
+      "benefit": "Präventive Koordination, vertrauenswürdige Lieferanten und diskretes Reporting halten Residenzen ankunftsbereit.",
+      "eyebrow": "Property- & Lifestyle-Management",
+      "introTitle": "Ihre Immobilie, stets betreut",
+      "forWhomTitle": "Eigentümer von Hauptwohnsitzen, Zweitwohnsitzen und Lifestyle-Assets",
+      "forWhomBody": "Für Kunden, die Property Supervision, Wartungskoordination, Haushalts-Personal und Zweitwohnsitz-Management brauchen."
+    }
+  },
+  "hero": {
+    "partner": "Ihr vertrauenswürdiger Concierge- & Hospitality-Partner in Luxemburg",
+    "line1": "Luxusservice.",
+    "line2": "Lokale Präzision.",
+    "subtitle": "Maßgeschneidertes Lifestyle-Management, Corporate Support, Relocation und VIP-Hospitality.",
+    "cta": "Mit einer vertraulichen Beratung beginnen",
+    "secondary": "Leistungen ansehen",
+    "tertiary": "Über uns",
+    "scroll": "Entdecken"
+  },
+  "intro": {
+    "eyebrow": "Willkommen & Unternehmensüberblick",
+    "title": "Luxusservice. Lokale Präzision.",
+    "body": "Oravi Lux ist ein diskreter Partner für Menschen und Organisationen, die erwarten, dass jedes Detail mit Sorgfalt behandelt wird.",
+    "cta": "Über uns",
+    "ctaSecondary": "Kontakt",
+    "card1Title": "Mission",
+    "card1Body": "Leben und Business in Luxemburg durch maßgeschneiderte, hochaufmerksame Unterstützung zu vereinfachen — damit Kunden sich auf das Wesentliche konzentrieren können, während wir managen, was nicht übersehen werden darf.",
+    "card2Title": "Vision",
+    "card2Body": "Den Maßstab für moderne Concierge- und Hospitality-Exzellenz im Großherzogtum zu setzen — lokale Expertise mit internationaler Servicedisziplin zu verbinden.",
+    "card3Title": "Value Proposition",
+    "card3Body": "Ein vertrauenswürdiger Ansprechpartner für Lifestyle-Management, Corporate Concierge, Relocation, Events und VIP-Services — mit Verantwortung koordiniert von der ersten Anfrage bis zur laufenden Unterstützung.",
+    "stat1Value": "47,0 %",
+    "stat1Label": "Ausländische Einwohner",
+    "stat2Value": "181",
+    "stat2Label": "Nationalitäten",
+    "stat3Value": "EU-Hub",
+    "stat3Label": "Finanzzentrum"
+  },
+  "luxembourg": {
+    "eyebrow": "Warum Luxemburg?",
+    "title": "Ein strategisches Zuhause für globale Leben und Unternehmen",
+    "body": "Luxemburg verbindet finanzielle Stärke, internationales Talent und einen einzigartig vernetzten europäischen Lebensstil.",
+    "cta": "Leistungen ansehen",
+    "ctaSecondary": "Kontakt",
+    "items": [
+      {
+        "title": "47,0 %",
+        "subtitle": "Ausländische Einwohner",
+        "body": "Eine internationale Community mit starker Expat-Nachfrage — und einem klaren Bedarf an vertrauenswürdiger lokaler Unterstützung."
+      },
+      {
+        "title": "181",
+        "subtitle": "Nationalitäten",
+        "body": "Ein wahrhaft multikulturelles Umfeld, in dem mehrsprachiger, diskreter Service nicht optional ist — er wird erwartet."
+      },
+      {
+        "title": "EU-Hub",
+        "subtitle": "Finanzzentrum",
+        "body": "Grenzüberschreitende Fonds, Banken, Versicherer und Private Wealth — eine Landschaft, die Poliertheit, Präzision und Vertraulichkeit verlangt."
+      }
+    ]
+  },
+  "bands": {
+    "aria": "Leistungen",
+    "travel": {
+      "eyebrow": "Unsere Concierge-Services",
+      "title": "Alltägliche Anfragen. Außergewöhnliche Umsetzung.",
+      "body": "Von persönlicher Unterstützung bis zu VIP-Arrangements passt sich unser Service Ihrem Lebensstil und Ihren Standards an.",
+      "cta": "Concierge ansehen"
+    },
+    "events": {
+      "eyebrow": "Corporate-Concierge-Services",
+      "title": "Executive-Produktivität ohne operative Reibung",
+      "body": "Wir unterstützen Führungsteams, Besuchskunden und Corporate Guests mit diskreter, präziser Koordination.",
+      "cta": "Corporate ansehen"
+    },
+    "concierge": {
+      "eyebrow": "Hospitality-Services",
+      "title": "Erste Eindrücke, makellos gemanagt",
+      "body": "Gehobene Gästebetreuung für VIP-Besucher, Delegationen, Privatkunden und Corporate-Hospitality-Programme.",
+      "cta": "Hospitality ansehen"
+    }
+  },
+  "servicesSection": {
+    "eyebrow": "Leistungen",
+    "title": "Unsere Concierge-Services",
+    "body": "Von persönlicher Unterstützung bis zu VIP-Arrangements passt sich unser Service Ihrem Lebensstil und Ihren Standards an.",
+    "cta": "Kontakt",
+    "ctaSecondary": "Über uns",
+    "learnMore": "Leistung ansehen"
+  },
+  "values": {
+    "eyebrow": "Warum wir",
+    "title": "Vertrauen aufgebaut auf Servicestandards",
+    "body": "Ein Premium-Concierge-Partner mit lokaler Expertise und internationaler Hospitality-Disziplin.",
+    "tagline": "Diskret. Reaktionsschnell. Vernetzt.",
+    "cta": "Mit einer vertraulichen Beratung beginnen",
+    "ctaSecondary": "Über uns",
+    "items": [
+      {
+        "title": "Lokale Expertise"
+      },
+      {
+        "title": "Internationale Standards"
+      },
+      {
+        "title": "Exklusives Netzwerk"
+      },
+      {
+        "title": "Mehrsprachiges Team"
+      },
+      {
+        "title": "24/7-Verfügbarkeit"
+      },
+      {
+        "title": "Vertraulichkeit"
+      }
+    ]
+  },
+  "work": {
+    "eyebrow": "Wen wir betreuen",
+    "title": "Erleben Sie personalisierte Concierge-Exzellenz in Luxemburg.",
+    "body": "Privatkunden | Corporate Teams | Führungskräfte | Expats | Family Offices",
+    "cta": "Kontakt",
+    "ctaSecondary": "Leistungen ansehen",
+    "items": [
+      {
+        "title": "Privatkunden"
+      },
+      {
+        "title": "Corporate Teams"
+      },
+      {
+        "title": "Führungskräfte"
+      },
+      {
+        "title": "Expats"
+      },
+      {
+        "title": "Family Offices"
+      }
+    ]
+  },
+  "process": {
+    "eyebrow": "Unser Prozess",
+    "title": "Eine klare Methode für maßgeschneiderten Service",
+    "subtitle": "Einfach, vertraulich und verantwortlich — vom ersten Gespräch bis zur laufenden Unterstützung.",
+    "body": "Ein dedizierter Kontakt führt Koordination, Partnermanagement und Qualitäts-Follow-up — damit Sie immer wissen, wer für den erhaltenen Service verantwortlich ist.",
+    "cta": "Mit einer vertraulichen Beratung beginnen",
+    "ctaSecondary": "Über uns",
+    "steps": [
+      {
+        "title": "Beratung",
+        "body": "Ein vertrauliches Gespräch, um Ihre Prioritäten, Ihren Kontext und den erwarteten Servicestandard zu verstehen."
+      },
+      {
+        "title": "Bedarfsanalyse",
+        "body": "Wir klären, was erledigt werden muss, was warten kann, und wo Diskretion, Timing und lokale Kenntnis am meisten zählen."
+      },
+      {
+        "title": "Persönliche Lösung",
+        "body": "Ein maßgeschneiderter Plan über Concierge, Hospitality, Relocation oder Executive Support — geformt um Ihren Lebensstil oder Ihre Organisation."
+      },
+      {
+        "title": "Umsetzung",
+        "body": "Präzise Koordination mit vertrauenswürdigen Partnern, klare Kommunikation und sorgfältige Aufmerksamkeit für jedes bewegliche Teil."
+      },
+      {
+        "title": "Laufende Unterstützung",
+        "body": "Kontinuität nach der Lieferung: Follow-up, Anpassungen und ein dedizierter Kontakt für sich entwickelnde Bedarfe über die Zeit."
+      }
+    ]
+  },
+  "frequent": {
+    "eyebrow": "Häufig nachgefragte Leistungen",
+    "title": "Die Anfragen, die Kunden am häufigsten stellen",
+    "body": "Ein schneller Überblick über stark nachgefragte Services für Führungskräfte, Expats und Privatkunden.",
+    "cta": "Alle Leistungen ansehen",
+    "ctaSecondary": "Kontakt",
+    "learnMore": "Leistung ansehen",
+    "items": [
+      {
+        "title": "Flughafentransfers",
+        "body": "Private Chauffeur- und VIP-Ankunftskoordination",
+        "href": "/services/hospitality"
+      },
+      {
+        "title": "Private Dining-Reservierungen",
+        "body": "Premium-Restaurants und private kulinarische Experiences",
+        "href": "/services/concierge"
+      },
+      {
+        "title": "Relocation-Unterstützung",
+        "body": "Wohnungssuche, Schulen und Settling-in",
+        "href": "/services/relocation"
+      },
+      {
+        "title": "Executive Assistance",
+        "body": "Terminplanung, Administration und Reisesupport",
+        "href": "/services/corporate-concierge"
+      },
+      {
+        "title": "Event Management",
+        "body": "Corporate Events und private Feiern",
+        "href": "/services/events"
+      }
+    ]
+  },
+  "packages": {
+    "eyebrow": "Servicepakete",
+    "title": "Flexibler Zugang zu Premium-Support",
+    "body": "Wählen Sie ein strukturiertes Concierge-Paket oder ein maßgeschneidertes VIP-Arrangement für Ihren Lebensstil.",
+    "note": "Pakete können als Retainer, Projektumfang oder einmalige Mandate angepasst werden.",
+    "cta": "Mit einer vertraulichen Beratung beginnen",
+    "ctaSecondary": "Leistungen ansehen",
+    "items": [
+      {
+        "name": "Essential Concierge",
+        "tag": "Für gelegentliche Unterstützung",
+        "points": [
+          "Reservierungen",
+          "Besorgungen",
+          "Lokale Orientierung"
+        ]
+      },
+      {
+        "name": "Premium Concierge",
+        "tag": "Für regelmäßigen Lifestyle-Bedarf",
+        "points": [
+          "Personal Assistant",
+          "Priorisierte Anfragen",
+          "Lifestyle-Planung"
+        ]
+      },
+      {
+        "name": "Executive Concierge",
+        "tag": "Für Leadership und Unternehmen",
+        "points": [
+          "Travel Desk",
+          "Meeting-Support",
+          "Client Hospitality"
+        ]
+      },
+      {
+        "name": "Bespoke VIP Services",
+        "tag": "Für voll maßgeschneiderte Unterstützung",
+        "points": [
+          "Dedizierter Lead",
+          "VIP-Zugang",
+          "24/7-Koordination"
+        ]
+      }
+    ]
+  },
+  "testimonials": {
+    "eyebrow": "Illustrative Beispiele",
+    "title": "Vertraut von anspruchsvollen Kunden",
+    "body": "Die folgenden Zitate sind illustrative Beispieltexte für Präsentations- und Verkaufsmaterialien.",
+    "note": "Diese Testimonials sind illustrative Beispiele und sollten vor Veröffentlichung durch freigegebene Kundenzitate ersetzt werden.",
+    "cta": "Kontakt",
+    "ctaSecondary": "Über uns",
+    "items": [
+      {
+        "quote": "Ihr Team hat einen komplexen Board-Besuch mit ruhiger Präzision gemanagt. Jeder Transfer, Meetingraum und jedes Client Dinner wirkte mühelos.",
+        "name": "Corporate Executive",
+        "role": "Globale Finanzdienstleistungsgruppe — Beispiel"
+      },
+      {
+        "quote": "Unser Umzug nach Luxemburg wurde vom ersten Tag an handhabbar. Wohnung, Schulbesuche und Versorgungsanschlüsse waren allesamt wunderbar koordiniert.",
+        "name": "Expat-Familie",
+        "role": "Umgezogen aus London — Beispiel"
+      },
+      {
+        "quote": "Das Maß an Diskretion und Follow-through ist genau das, was unsere Private-Banking-Kunden von einem premium lokalen Partner erwarten.",
+        "name": "Private-Banking-Kunde",
+        "role": "Wealth-Management-Beziehung — Beispiel"
+      }
+    ]
+  },
+  "cta": {
+    "title": "Lassen Sie uns jedes Detail übernehmen",
+    "body": "Erleben Sie personalisierte Concierge-Exzellenz in Luxemburg.",
+    "audiences": "Privatkunden | Corporate Teams | Führungskräfte | Expats | Family Offices",
+    "button": "Mit einer vertraulichen Beratung beginnen",
+    "secondary": "Über uns",
+    "tertiary": "Leistungen ansehen",
+    "email": "E-Mail"
+  },
+  "aboutPage": {
+    "title": "Willkommen & Unternehmensüberblick",
+    "subtitle": "Ihr vertrauenswürdiger Concierge- und Hospitality-Partner in Luxemburg",
+    "lead": "Luxusservice. Lokale Präzision.",
+    "body": "Oravi Lux ist ein diskreter Partner für Menschen und Organisationen, die erwarten, dass jedes Detail mit Sorgfalt behandelt wird.",
+    "missionTitle": "Mission",
+    "missionBody": "Leben und Business in Luxemburg durch maßgeschneiderte, hochaufmerksame Unterstützung zu vereinfachen.",
+    "visionTitle": "Vision",
+    "visionBody": "Den Maßstab für moderne Concierge- und Hospitality-Exzellenz im Großherzogtum zu setzen.",
+    "valueTitle": "Value Proposition",
+    "valueBody": "Ein vertrauenswürdiger Ansprechpartner für Lifestyle, Corporate, Relocation, Events und VIP-Services.",
+    "whyTitle": "Warum wir",
+    "whyBody": "Vertrauen aufgebaut auf Servicestandards. Ein Premium-Concierge-Partner mit lokaler Expertise und internationaler Hospitality-Disziplin.",
+    "whyTagline": "Diskret. Reaktionsschnell. Vernetzt.",
+    "cta": "Mit einer vertraulichen Beratung beginnen",
+    "ctaSecondary": "Leistungen ansehen"
+  },
+  "contactPage": {
+    "title": "Mit einer vertraulichen Beratung beginnen",
+    "subtitle": "Sagen Sie uns, was Sie brauchen. Wir koordinieren den Rest — diskret, sorgfältig und mit einem klaren Ansprechpartner ab dem ersten Gespräch.",
+    "name": "Name",
+    "company": "Unternehmen",
+    "email": "E-Mail",
+    "message": "Wie können wir Sie unterstützen?",
+    "submit": "Anfrage senden",
+    "sending": "Wird gesendet…",
+    "success": "Vielen Dank. Ihre Anfrage wurde gesendet — wir melden uns diskret.",
+    "error": "Etwas ist schiefgelaufen. Bitte versuchen Sie es erneut oder schreiben Sie uns direkt.",
+    "activation": "Prüfen Sie Spam/Promotions auf eine FormSubmit-E-Mail, klicken Sie auf Activate Form und senden Sie danach erneut.",
+    "office": "Büro Luxemburg",
+    "phone": "Telefon",
+    "hours": "Website"
+  },
+  "footer": {
+    "tagline": "Ihr vertrauenswürdiger Concierge- und Hospitality-Partner in Luxemburg. Maßgeschneidertes Lifestyle-Management, Corporate Support, Relocation und VIP-Hospitality.",
+    "brand": "Oravi Lux",
+    "navigation": "Navigation",
+    "contact": "Kontakt",
+    "privacy": "Datenschutzrichtlinie",
+    "legal": "Impressum",
+    "rights": "Alle Rechte vorbehalten."
+  },
+  "site": {
+    "email": "contact@oravilux.com",
+    "phone": "+352 00 000 000",
+    "address": "Luxemburg-Stadt, Großherzogtum Luxemburg",
+    "hours": "www.oravilux.com"
+  }
+}

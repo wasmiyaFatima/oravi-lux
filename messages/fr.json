@@ -1,0 +1,633 @@
+{
+  "meta": {
+    "title": "Oravi Lux | Conciergerie et hospitalité au Luxembourg",
+    "description": "Conciergerie sur mesure, assistance exécutive, relocalisation et gestion de l’hospitalité au Luxembourg et dans la Grande Région."
+  },
+  "nav": {
+    "home": "Accueil",
+    "about": "À propos",
+    "services": "Services",
+    "approach": "Processus",
+    "work": "Clients",
+    "contact": "Contact",
+    "speak": "Consultation",
+    "language": "Langue"
+  },
+  "services": {
+    "concierge": {
+      "cta": "Planifier votre consultation privée",
+      "ctaTitle": "Planifiez votre consultation privée",
+      "ctaBody": "Contactez-nous pour découvrir une gestion du quotidien véritablement sur mesure.",
+      "introEyebrow": "Présentation",
+      "pointsTitle": "Nos prestations",
+      "forWhomEyebrow": "À qui s’adresse ce service",
+      "approachEyebrow": "Notre processus",
+      "approachTitle": "Une excellence structurée, de l’accueil à l’exécution",
+      "approachBody": "Après une consultation confidentielle, nous évaluons précisément vos besoins, concevons une solution sur mesure, puis en confions l’exécution et le suivi à un responsable dédié.",
+      "approachSteps": [
+        "Consultation — Un premier entretien confidentiel pour comprendre vos besoins, préférences et périmètre opérationnel.",
+        "Évaluation des besoins — Un audit détaillé des exigences, priorités, fréquences et niveaux de service attendus.",
+        "Solution sur mesure — Une formule personnalisée, une équipe dédiée et des canaux de communication clairement définis.",
+        "Exécution — Une prise en charge en temps réel par un responsable dédié à votre mode de vie et disponible 24 h/24, 7 j/7.",
+        "Suivi continu — Des retours réguliers, un rapport mensuel d’activité et un ajustement progressif du service."
+      ],
+      "nav": "Conciergerie",
+      "title": "Services de conciergerie et gestion du mode de vie sur mesure",
+      "subtitle": "Un luxe personnalisé pour une clientèle exigeante",
+      "body": "Oravi Lux prend en charge les détails du quotidien, les accès privilégiés, le shopping de luxe et les expériences privées avec précision et discrétion.",
+      "points": [
+        "Assistance personnelle et courses — Gestion de l’agenda, démarches courantes et administration du quotidien.",
+        "Réservations et accès VIP — Accès prioritaire aux tables étoilées, spectacles complets, galas privés et événements de premier plan.",
+        "Shopping de luxe — Recherche de montres rares, haute couture et beaux-arts, avec accès aux présentations privées et au conseil en style.",
+        "Expériences sur mesure — Dégustations privées, location de yachts, transferts en hélicoptère et itinéraires exclusifs le temps d’un week-end."
+      ],
+      "benefit": "",
+      "eyebrow": "Conciergerie et mode de vie",
+      "introTitle": "Un luxe personnalisé pour une clientèle exigeante",
+      "forWhomTitle": "Personnes fortunées à la recherche d’un service irréprochable",
+      "forWhomBody": "Pour les particuliers fortunés qui souhaitent déléguer leur quotidien et accéder à des réservations, achats et expériences d’exception."
+    },
+    "corporate-concierge": {
+      "cta": "Planifier votre consultation privée",
+      "ctaTitle": "Planifiez votre consultation privée",
+      "ctaBody": "Contactez-nous pour définir un accompagnement exécutif adapté.",
+      "introEyebrow": "Présentation",
+      "pointsTitle": "Nos prestations",
+      "forWhomEyebrow": "À qui s’adresse ce service",
+      "approachEyebrow": "Notre processus",
+      "approachTitle": "Une excellence structurée, de l’accueil à l’exécution",
+      "approachBody": "Après une consultation confidentielle, nous évaluons précisément vos besoins, concevons une solution sur mesure, puis en confions l’exécution et le suivi à un responsable dédié.",
+      "approachSteps": [
+        "Consultation — Un premier entretien confidentiel pour comprendre vos besoins, préférences et périmètre opérationnel.",
+        "Évaluation des besoins — Un audit détaillé des exigences, priorités, fréquences et niveaux de service attendus.",
+        "Solution sur mesure — Une formule personnalisée, une équipe dédiée et des canaux de communication clairement définis.",
+        "Exécution — Une prise en charge en temps réel par un responsable dédié à votre mode de vie et disponible 24 h/24, 7 j/7.",
+        "Suivi continu — Des retours réguliers, un rapport mensuel d’activité et un ajustement progressif du service."
+      ],
+      "nav": "Conciergerie d’entreprise",
+      "title": "Conciergerie d’entreprise et soutien exécutif",
+      "subtitle": "Efficacité professionnelle et hospitalité exécutive",
+      "body": "Un soutien à la demande pour fluidifier le travail des dirigeants, coordonner leurs déplacements et offrir un accueil irréprochable aux investisseurs et membres de conseils en visite.",
+      "points": [
+        "Soutien administratif exécutif — Assistance à la demande, coordination d’agendas complexes, préparation de documents et traductions multilingues.",
+        "Coordination des voyages d’affaires — Gestion complète des itinéraires, protocoles accélérés à l’aéroport, chauffeurs privés et hébergements.",
+        "Gestion des réunions et conférences — Recherche de lieux, coordination audiovisuelle, restauration et personnel d’accueil pour les réunions de direction.",
+        "Hospitalité clients — Coffrets de bienvenue, cadeaux d’entreprise et dîners exécutifs conçus pour les investisseurs et administrateurs en visite."
+      ],
+      "benefit": "",
+      "eyebrow": "Conciergerie d’entreprise",
+      "introTitle": "Efficacité professionnelle et hospitalité exécutive",
+      "forWhomTitle": "Dirigeants d’entreprise et délégations professionnelles",
+      "forWhomBody": "Pour les dirigeants, équipes de direction, investisseurs et membres de conseils qui ont besoin d’un soutien administratif et logistique discret."
+    },
+    "relocation": {
+      "cta": "Planifier votre consultation privée",
+      "ctaTitle": "Planifiez votre consultation privée",
+      "ctaBody": "Contactez-nous pour préparer votre installation au Luxembourg.",
+      "introEyebrow": "Présentation",
+      "pointsTitle": "Nos prestations",
+      "forWhomEyebrow": "À qui s’adresse ce service",
+      "approachEyebrow": "Notre processus",
+      "approachTitle": "Une excellence structurée, de l’accueil à l’exécution",
+      "approachBody": "Après une consultation confidentielle, nous évaluons précisément vos besoins, concevons une solution sur mesure, puis en confions l’exécution et le suivi à un responsable dédié.",
+      "approachSteps": [
+        "Consultation — Un premier entretien confidentiel pour comprendre vos besoins, préférences et périmètre opérationnel.",
+        "Évaluation des besoins — Un audit détaillé des exigences, priorités, fréquences et niveaux de service attendus.",
+        "Solution sur mesure — Une formule personnalisée, une équipe dédiée et des canaux de communication clairement définis.",
+        "Exécution — Une prise en charge en temps réel par un responsable dédié à votre mode de vie et disponible 24 h/24, 7 j/7.",
+        "Suivi continu — Des retours réguliers, un rapport mensuel d’activité et un ajustement progressif du service."
+      ],
+      "nav": "Relocalisation",
+      "title": "Relocalisation des expatriés et dirigeants",
+      "subtitle": "Une transition fluide vers la vie au Grand-Duché",
+      "body": "De la recherche d’un logement à l’installation du foyer, Oravi Lux coordonne les démarches essentielles pour faciliter l’arrivée des expatriés et dirigeants au Luxembourg.",
+      "points": [
+        "Recherche de logements haut de gamme — Biens hors marché, conseil immobilier, négociation du bail et logement exécutif temporaire dans les communes recherchées.",
+        "Placement et conseil scolaires — Orientation parmi les écoles internationales, publiques et privées, aide aux candidatures et visites des campus.",
+        "Immigration et démarches administratives — Visas, permis de travail, inscription communale, enregistrement fiscal et affiliation au système de santé.",
+        "Installation du foyer — Activation des services, Internet haut débit, importation et immatriculation du véhicule, découverte du quartier et mise en relation bancaire."
+      ],
+      "benefit": "",
+      "eyebrow": "Services de relocalisation",
+      "introTitle": "Une transition fluide vers la vie au Grand-Duché",
+      "forWhomTitle": "Dirigeants, expatriés et leurs familles",
+      "forWhomBody": "Pour les cadres dirigeants, conseillers juridiques, diplomates, entrepreneurs et familles expatriées qui s’installent au Luxembourg."
+    },
+    "hospitality": {
+      "cta": "Planifier votre consultation privée",
+      "ctaTitle": "Planifiez votre consultation privée",
+      "ctaBody": "Contactez-nous pour organiser un accueil haut de gamme.",
+      "introEyebrow": "Présentation",
+      "pointsTitle": "Nos prestations",
+      "forWhomEyebrow": "À qui s’adresse ce service",
+      "approachEyebrow": "Notre processus",
+      "approachTitle": "Une excellence structurée, de l’accueil à l’exécution",
+      "approachBody": "Après une consultation confidentielle, nous évaluons précisément vos besoins, concevons une solution sur mesure, puis en confions l’exécution et le suivi à un responsable dédié.",
+      "approachSteps": [
+        "Consultation — Un premier entretien confidentiel pour comprendre vos besoins, préférences et périmètre opérationnel.",
+        "Évaluation des besoins — Un audit détaillé des exigences, priorités, fréquences et niveaux de service attendus.",
+        "Solution sur mesure — Une formule personnalisée, une équipe dédiée et des canaux de communication clairement définis.",
+        "Exécution — Une prise en charge en temps réel par un responsable dédié à votre mode de vie et disponible 24 h/24, 7 j/7.",
+        "Suivi continu — Des retours réguliers, un rapport mensuel d’activité et un ajustement progressif du service."
+      ],
+      "nav": "Hospitalité",
+      "title": "Hospitalité haut de gamme et gestion des invités",
+      "subtitle": "Des standards d’hospitalité sans compromis",
+      "body": "Une prise en charge raffinée des arrivées, hébergements, repas privés et déplacements, orchestrée selon les standards de l’hôtellerie cinq étoiles.",
+      "points": [
+        "Protocoles VIP à l’aéroport et en transit — Accueil personnel à Luxembourg-Findel, gestion des salons, transferts sur le tarmac et passage accéléré des formalités.",
+        "Recherche d’hébergements de luxe — Villas privées, privatisation de châteaux historiques et accès privilégié aux meilleurs hôtels-boutiques cinq étoiles.",
+        "Hospitalité événementielle et chefs privés — Chefs pour dîners intimistes, sommeliers professionnels et personnel discret pour les réceptions à domicile.",
+        "Chauffeurs et gestion de flotte — Transferts en flotte Mercedes, chauffeurs privés bilingues disponibles 24 h/24, 7 j/7 et location de véhicules de luxe."
+      ],
+      "benefit": "",
+      "eyebrow": "Services d’hospitalité",
+      "introTitle": "Des standards d’hospitalité sans compromis",
+      "forWhomTitle": "Invités VIP et délégations privées ou professionnelles",
+      "forWhomBody": "Pour les visiteurs, familles, investisseurs et membres de conseils qui attendent un accueil et une logistique irréprochables."
+    },
+    "personal-assistance": {
+      "cta": "Planifier votre consultation privée",
+      "ctaTitle": "Planifiez votre consultation privée",
+      "ctaBody": "Contactez-nous pour simplifier votre quotidien.",
+      "introEyebrow": "Présentation",
+      "pointsTitle": "Nos prestations",
+      "forWhomEyebrow": "À qui s’adresse ce service",
+      "approachEyebrow": "Notre processus",
+      "approachTitle": "Une excellence structurée, de l’accueil à l’exécution",
+      "approachBody": "Après une consultation confidentielle, nous évaluons précisément vos besoins, concevons une solution sur mesure, puis en confions l’exécution et le suivi à un responsable dédié.",
+      "approachSteps": [
+        "Consultation — Un premier entretien confidentiel pour comprendre vos besoins, préférences et périmètre opérationnel.",
+        "Évaluation des besoins — Un audit détaillé des exigences, priorités, fréquences et niveaux de service attendus.",
+        "Solution sur mesure — Une formule personnalisée, une équipe dédiée et des canaux de communication clairement définis.",
+        "Exécution — Une prise en charge en temps réel par un responsable dédié à votre mode de vie et disponible 24 h/24, 7 j/7.",
+        "Suivi continu — Des retours réguliers, un rapport mensuel d’activité et un ajustement progressif du service."
+      ],
+      "nav": "Assistance personnelle",
+      "title": "Assistance personnelle et domestique",
+      "subtitle": "Simplifier le quotidien avec une précision de confiance",
+      "body": "Oravi Lux coordonne les tâches, rendez-vous, prestataires du foyer et achats personnels pour restituer du temps à ses clients.",
+      "points": [
+        "Tâches quotidiennes et coordination du foyer — Prestataires domestiques, pressing, livraisons, courses personnelles et entretien courant.",
+        "Rendez-vous et organisation du mode de vie — Rendez-vous médicaux, bien-être, spa, coach personnel et agendas familiaux.",
+        "Gestion de la maison et de la propriété — Travaux, personnel domestique, préparation saisonnière et contrôles de sécurité.",
+        "Shopping personnel et cadeaux — Cadeaux d’entreprise ou familiaux, compositions florales et achats personnels livrés directement."
+      ],
+      "benefit": "",
+      "eyebrow": "Assistance personnelle",
+      "introTitle": "Simplifier le quotidien avec une précision de confiance",
+      "forWhomTitle": "Particuliers et familles au quotidien exigeant",
+      "forWhomBody": "Pour les personnes fortunées et familles actives qui souhaitent confier leurs tâches personnelles et domestiques à une équipe de confiance."
+    },
+    "executive-family-office": {
+      "cta": "Planifier votre consultation privée",
+      "ctaTitle": "Planifiez votre consultation privée",
+      "ctaBody": "Contactez-nous pour mettre en place un soutien strictement confidentiel.",
+      "introEyebrow": "Présentation",
+      "pointsTitle": "Nos prestations",
+      "forWhomEyebrow": "À qui s’adresse ce service",
+      "approachEyebrow": "Notre processus",
+      "approachTitle": "Une excellence structurée, de l’accueil à l’exécution",
+      "approachBody": "Après une consultation confidentielle, nous évaluons précisément vos besoins, concevons une solution sur mesure, puis en confions l’exécution et le suivi à un responsable dédié.",
+      "approachSteps": [
+        "Consultation — Un premier entretien confidentiel pour comprendre vos besoins, préférences et périmètre opérationnel.",
+        "Évaluation des besoins — Un audit détaillé des exigences, priorités, fréquences et niveaux de service attendus.",
+        "Solution sur mesure — Une formule personnalisée, une équipe dédiée et des canaux de communication clairement définis.",
+        "Exécution — Une prise en charge en temps réel par un responsable dédié à votre mode de vie et disponible 24 h/24, 7 j/7.",
+        "Suivi continu — Des retours réguliers, un rapport mensuel d’activité et un ajustement progressif du service."
+      ],
+      "nav": "Direction et patrimoine familial",
+      "title": "Soutien exécutif et structures patrimoniales familiales",
+      "subtitle": "Une assistance confidentielle pour les familles et leurs structures patrimoniales",
+      "body": "Une coordination discrète des agendas, délégations et opérations sensibles, appuyée par un réseau local rigoureusement sélectionné.",
+      "points": [
+        "Synchronisation des agendas et de la logistique — Gestion de plannings complexes entre structures patrimoniales multijuridictionnelles et équipes dirigeantes.",
+        "Hospitalité des délégations privées — Liaison avec les équipes de sécurité, protocoles des opérateurs de jets privés et transport haut de gamme.",
+        "Soutien opérationnel confidentiel — Exécution sous accord de confidentialité de démarches administratives, juridiques et opérationnelles sensibles.",
+        "Réseau local de prestataires de confiance — Accès à des fournisseurs de luxe, conseillers juridiques, banquiers privés, architectes et planificateurs patrimoniaux sélectionnés."
+      ],
+      "benefit": "",
+      "eyebrow": "Soutien exécutif et patrimoine familial",
+      "introTitle": "Une assistance confidentielle pour les familles et leurs structures patrimoniales",
+      "forWhomTitle": "Familles très fortunées, structures patrimoniales et dirigeants",
+      "forWhomBody": "Pour les familles très fortunées, leurs structures patrimoniales, les dirigeants d’entreprise et les donneurs d’ordre qui requièrent une confidentialité absolue."
+    },
+    "luxury-travel": {
+      "cta": "Planifier votre consultation privée",
+      "ctaTitle": "Planifiez votre consultation privée",
+      "ctaBody": "Contactez-nous pour concevoir votre prochain voyage.",
+      "introEyebrow": "Présentation",
+      "pointsTitle": "Nos prestations",
+      "forWhomEyebrow": "À qui s’adresse ce service",
+      "approachEyebrow": "Notre processus",
+      "approachTitle": "Une excellence structurée, de l’accueil à l’exécution",
+      "approachBody": "Après une consultation confidentielle, nous évaluons précisément vos besoins, concevons une solution sur mesure, puis en confions l’exécution et le suivi à un responsable dédié.",
+      "approachSteps": [
+        "Consultation — Un premier entretien confidentiel pour comprendre vos besoins, préférences et périmètre opérationnel.",
+        "Évaluation des besoins — Un audit détaillé des exigences, priorités, fréquences et niveaux de service attendus.",
+        "Solution sur mesure — Une formule personnalisée, une équipe dédiée et des canaux de communication clairement définis.",
+        "Exécution — Une prise en charge en temps réel par un responsable dédié à votre mode de vie et disponible 24 h/24, 7 j/7.",
+        "Suivi continu — Des retours réguliers, un rapport mensuel d’activité et un ajustement progressif du service."
+      ],
+      "nav": "Voyages de luxe",
+      "title": "Voyages de luxe et aviation privée",
+      "subtitle": "Des voyages fluides partout dans le monde",
+      "body": "De l’affrètement aérien aux itinéraires privés, Oravi Lux orchestre chaque étape des voyages d’exception.",
+      "points": [
+        "Jets privés et affrètements aériens — Vols à la demande au départ de Luxembourg, transferts en hélicoptère et gestion des opérations aériennes.",
+        "Vacances sur mesure — Itinéraires privés, location d’îles, safaris de luxe et chalets de ski exclusifs.",
+        "Avantages VIP dans les hôtels cinq étoiles — Surclassements, petit-déjeuner offert, arrivée anticipée, départ tardif et crédits dans les établissements partenaires.",
+        "Location de superyachts et croisières — Yachts exclusifs en Méditerranée, dans les Caraïbes et pour des expéditions côtières privées."
+      ],
+      "benefit": "",
+      "eyebrow": "Gestion de voyages de luxe",
+      "introTitle": "Des voyages fluides partout dans le monde",
+      "forWhomTitle": "Voyageurs privés et dirigeants exigeants",
+      "forWhomBody": "Pour les particuliers fortunés, familles et dirigeants qui souhaitent des voyages privés entièrement coordonnés."
+    },
+    "events": {
+      "cta": "Planifier votre consultation privée",
+      "ctaTitle": "Planifiez votre consultation privée",
+      "ctaBody": "Contactez-nous pour imaginer une expérience inoubliable.",
+      "introEyebrow": "Présentation",
+      "pointsTitle": "Nos prestations",
+      "forWhomEyebrow": "À qui s’adresse ce service",
+      "approachEyebrow": "Notre processus",
+      "approachTitle": "Une excellence structurée, de l’accueil à l’exécution",
+      "approachBody": "Après une consultation confidentielle, nous évaluons précisément vos besoins, concevons une solution sur mesure, puis en confions l’exécution et le suivi à un responsable dédié.",
+      "approachSteps": [
+        "Consultation — Un premier entretien confidentiel pour comprendre vos besoins, préférences et périmètre opérationnel.",
+        "Évaluation des besoins — Un audit détaillé des exigences, priorités, fréquences et niveaux de service attendus.",
+        "Solution sur mesure — Une formule personnalisée, une équipe dédiée et des canaux de communication clairement définis.",
+        "Exécution — Une prise en charge en temps réel par un responsable dédié à votre mode de vie et disponible 24 h/24, 7 j/7.",
+        "Suivi continu — Des retours réguliers, un rapport mensuel d’activité et un ajustement progressif du service."
+      ],
+      "nav": "Événements et expériences",
+      "title": "Événements sélectionnés et expériences sur mesure",
+      "subtitle": "Des moments inoubliables conçus avec excellence",
+      "body": "Oravi Lux imagine et coordonne des célébrations privées, rendez-vous d’entreprise et accès culturels privilégiés.",
+      "points": [
+        "Galas privés et célébrations marquantes — Anniversaires, grandes étapes de vie et dîners de gala exclusifs dans des châteaux privés.",
+        "Séminaires et dîners d’entreprise — Retraites stratégiques de direction, dîners de réseautage, événements clients et week-ends d’équipe.",
+        "Accès VIP aux événements internationaux — Places privilégiées pour le Grand Prix de Monaco, Cannes, Wimbledon, la Fashion Week de Paris et Art Basel.",
+        "Accès culturel et culinaire local — Visites privées de musées luxembourgeois, vignobles de la Moselle et concerts privés."
+      ],
+      "benefit": "",
+      "eyebrow": "Événements & expériences",
+      "introTitle": "Des moments inoubliables conçus avec excellence",
+      "forWhomTitle": "Hôtes privés, dirigeants et entreprises",
+      "forWhomBody": "Pour les particuliers, familles, équipes de direction et entreprises qui souhaitent créer une occasion remarquable ou accéder à un événement exclusif."
+    },
+    "property": {
+      "cta": "Planifier votre consultation privée",
+      "ctaTitle": "Planifiez votre consultation privée",
+      "ctaBody": "Contactez-nous pour organiser la supervision de votre résidence.",
+      "introEyebrow": "Présentation",
+      "pointsTitle": "Nos prestations",
+      "forWhomEyebrow": "À qui s’adresse ce service",
+      "approachEyebrow": "Notre processus",
+      "approachTitle": "Une excellence structurée, de l’accueil à l’exécution",
+      "approachBody": "Après une consultation confidentielle, nous évaluons précisément vos besoins, concevons une solution sur mesure, puis en confions l’exécution et le suivi à un responsable dédié.",
+      "approachSteps": [
+        "Consultation — Un premier entretien confidentiel pour comprendre vos besoins, préférences et périmètre opérationnel.",
+        "Évaluation des besoins — Un audit détaillé des exigences, priorités, fréquences et niveaux de service attendus.",
+        "Solution sur mesure — Une formule personnalisée, une équipe dédiée et des canaux de communication clairement définis.",
+        "Exécution — Une prise en charge en temps réel par un responsable dédié à votre mode de vie et disponible 24 h/24, 7 j/7.",
+        "Suivi continu — Des retours réguliers, un rapport mensuel d’activité et un ajustement progressif du service."
+      ],
+      "nav": "Supervision de résidences",
+      "title": "Supervision de propriétés et résidences",
+      "subtitle": "Protéger et entretenir vos biens immobiliers",
+      "body": "Une supervision attentive des résidences inoccupées ou secondaires, de leur entretien et de leur préparation avant chaque arrivée.",
+      "points": [
+        "Résidence inoccupée et garde de clés — Inspections régulières, collecte du courrier, soin des plantes et surveillance de sécurité pendant les déplacements.",
+        "Supervision des prestataires et de l’entretien — Coordination des artisans, décorateurs, paysagistes et techniciens d’urgence.",
+        "Solutions de personnel domestique — Recrutement, vérification et gestion de gouvernantes, chefs privés, intendants et nounous.",
+        "Préparation des résidences secondaires et villas — Approvisionnement, nettoyage irréprochable et fleurs fraîches avant l’arrivée des propriétaires."
+      ],
+      "benefit": "",
+      "eyebrow": "Gestion de propriété & style de vie",
+      "introTitle": "Protéger et entretenir vos biens immobiliers",
+      "forWhomTitle": "Propriétaires de résidences principales et secondaires",
+      "forWhomBody": "Pour les propriétaires qui voyagent, possèdent une résidence secondaire ou souhaitent déléguer l’entretien et le personnel de leur propriété."
+    }
+  },
+  "hero": {
+    "partner": "Votre partenaire de confiance en conciergerie et hospitalité au Luxembourg",
+    "line1": "Gestion du quotidien.",
+    "line2": "Excellence sur mesure.",
+    "subtitle": "Gestion du mode de vie sur mesure • soutien aux entreprises • relocalisation • services exécutifs",
+    "cta": "Planifier une consultation privée",
+    "secondary": "Voir les services",
+    "tertiary": "À propos",
+    "scroll": "Découvrir"
+  },
+  "intro": {
+    "eyebrow": "Bienvenue chez Oravi Lux",
+    "title": "Redéfinir le luxe et la gestion du temps au Grand-Duché",
+    "body": "Oravi Lux propose des services de conciergerie sur mesure, d’assistance exécutive et de gestion de l’hospitalité au Luxembourg et dans la Grande Région. Nous accompagnons les particuliers fortunés, dirigeants d’entreprise, structures patrimoniales familiales et personnels diplomatiques qui exigent une exécution irréprochable, une discrétion absolue et une expertise locale.",
+    "cta": "À propos",
+    "ctaSecondary": "Contact",
+    "card1Title": "Mission",
+    "card1Body": "Restituer à nos clients leur bien le plus précieux — le temps — grâce à des solutions de conciergerie et d’administration impeccables, personnalisées et exécutées selon les standards de l’hospitalité cinq étoiles.",
+    "card2Title": "Vision",
+    "card2Body": "Rester le partenaire de conciergerie le plus fiable, agile et discret d’Europe, en établissant la référence de la gestion du mode de vie haut de gamme et de l’accompagnement des délégations d’entreprise.",
+    "card3Title": "Proposition de valeur",
+    "card3Body": "L’alliance d’un réseau luxembourgeois très ancré et des standards internationaux du service haut de gamme, portée par une équipe multilingue dédiée, disponible 24 h/24 et 7 j/7.",
+    "stat1Value": "AAA",
+    "stat1Label": "Économie stable",
+    "stat2Value": "170+",
+    "stat2Label": "Nationalités",
+    "stat3Value": "Pôle UE",
+    "stat3Label": "Centre financier international"
+  },
+  "luxembourg": {
+    "eyebrow": "Pourquoi le Luxembourg ?",
+    "title": "Un contexte stratégique pour les vies et entreprises internationales",
+    "body": "Place financière mondiale, environnement multiculturel, communauté expatriée en croissance et économie notée AAA : le Luxembourg exige un accompagnement local fiable.",
+    "cta": "Voir les services",
+    "ctaSecondary": "Contact",
+    "items": [
+      {
+        "title": "Pôle financier",
+        "subtitle": "Centre financier international",
+        "body": "Le pays accueille des banques privées, fonds d’investissement, groupes mondiaux et institutions de l’Union européenne de premier plan."
+      },
+      {
+        "title": "170+",
+        "subtitle": "Environnement multiculturel",
+        "body": "Une main-d’œuvre trilingue unique et une population dynamique représentant plus de 170 nationalités dans un contexte international."
+      },
+      {
+        "title": "En croissance",
+        "subtitle": "Communauté expatriée",
+        "body": "L’arrivée soutenue de cadres dirigeants, conseillers juridiques, diplomates et entrepreneurs crée un besoin d’assistance fluide à l’installation."
+      },
+      {
+        "title": "AAA",
+        "subtitle": "Destination d’affaires attractive",
+        "body": "Une économie notée AAA offrant stabilité, sécurité et qualité de vie aux familles comme aux entreprises."
+      }
+    ]
+  },
+  "bands": {
+    "aria": "Services",
+    "travel": {
+      "eyebrow": "Conciergerie et mode de vie",
+      "title": "Un luxe personnalisé pour une clientèle exigeante",
+      "body": "Assistance personnelle, accès VIP, shopping de luxe et expériences privées sur mesure.",
+      "cta": "Voir la conciergerie"
+    },
+    "events": {
+      "eyebrow": "Conciergerie d’entreprise",
+      "title": "Efficacité professionnelle et hospitalité exécutive",
+      "body": "Assistance administrative, voyages d’affaires, réunions et accueil des clients coordonnés de bout en bout.",
+      "cta": "Voir le service entreprise"
+    },
+    "concierge": {
+      "eyebrow": "Relocalisation",
+      "title": "Une transition fluide vers la vie au Grand-Duché",
+      "body": "Logement, scolarité, démarches administratives et installation du foyer coordonnés avec soin.",
+      "cta": "Voir la relocalisation"
+    }
+  },
+  "servicesSection": {
+    "eyebrow": "Services",
+    "title": "Une expertise complète, adaptée à votre quotidien",
+    "body": "Conciergerie, assistance exécutive, relocalisation, hospitalité, voyages, événements et supervision de résidences au Luxembourg et au-delà.",
+    "cta": "Contact",
+    "ctaSecondary": "À propos",
+    "learnMore": "Voir le service"
+  },
+  "values": {
+    "eyebrow": "Pourquoi nous choisir",
+    "title": "Les piliers de notre excellence",
+    "body": "Une expertise profondément locale, des standards internationaux, une équipe multilingue dédiée et une confidentialité absolue.",
+    "tagline": "Précision. Discrétion. Service proactif.",
+    "cta": "Planifier une consultation privée",
+    "ctaSecondary": "À propos",
+    "items": [
+      {
+        "title": "Expertise locale et réseau approfondis"
+      },
+      {
+        "title": "Standards internationaux du service haut de gamme"
+      },
+      {
+        "title": "Équipe multilingue dédiée 24 h/24, 7 j/7"
+      },
+      {
+        "title": "Discrétion et sécurité absolues"
+      }
+    ]
+  },
+  "work": {
+    "eyebrow": "Notre clientèle",
+    "title": "Une conciergerie personnalisée d’excellence au Luxembourg",
+    "body": "Oravi Lux accompagne les personnes fortunées, dirigeants d’entreprise, structures patrimoniales familiales et personnels diplomatiques.",
+    "cta": "Contact",
+    "ctaSecondary": "Voir les services",
+    "items": [
+      {
+        "title": "Personnes fortunées"
+      },
+      {
+        "title": "Dirigeants d’entreprise"
+      },
+      {
+        "title": "Structures patrimoniales familiales"
+      },
+      {
+        "title": "Personnels diplomatiques"
+      }
+    ]
+  },
+  "process": {
+    "eyebrow": "Notre processus",
+    "title": "Une excellence structurée, de l’accueil à l’exécution",
+    "subtitle": "Cinq étapes pour définir, mettre en œuvre et faire évoluer un service entièrement sur mesure.",
+    "body": "Chaque accompagnement est confié à un responsable dédié à votre mode de vie, avec des canaux de communication et des niveaux de service clairement établis.",
+    "cta": "Planifier une consultation privée",
+    "ctaSecondary": "À propos",
+    "steps": [
+      {
+        "title": "Consultation",
+        "body": "Un premier entretien confidentiel pour comprendre vos besoins, vos préférences et le périmètre opérationnel."
+      },
+      {
+        "title": "Évaluation des besoins",
+        "body": "Un audit détaillé des exigences, du niveau de priorité, de la fréquence et des niveaux de service personnalisés."
+      },
+      {
+        "title": "Solution sur mesure",
+        "body": "Nous créons une formule personnalisée, sélectionnons les personnes dédiées et établissons les canaux de communication."
+      },
+      {
+        "title": "Exécution",
+        "body": "Une exécution irréprochable en temps réel, pilotée par un responsable dédié à votre mode de vie et disponible 24 h/24, 7 j/7."
+      },
+      {
+        "title": "Soutien continu",
+        "body": "Analyse continue des retours, rapport mensuel d’activité et adaptation progressive du service."
+      }
+    ]
+  },
+  "frequent": {
+    "eyebrow": "Services les plus demandés",
+    "title": "Aperçu des solutions les plus recherchées",
+    "body": "Quatre demandes récurrentes, prises en charge avec la même précision et la même discrétion.",
+    "cta": "Voir tous les services",
+    "ctaSecondary": "Contact",
+    "learnMore": "Voir le service",
+    "items": [
+      {
+        "title": "Transferts aéroport et escorte VIP",
+        "body": "Transport haut de gamme entre Luxembourg-Findel et les centres financiers européens, avec protocole accéléré.",
+        "href": "/services/hospitality"
+      },
+      {
+        "title": "Réservations de tables et chefs privés",
+        "body": "Accès aux meilleures tables étoilées et sélection de chefs privés pour vos repas à domicile.",
+        "href": "/services/concierge"
+      },
+      {
+        "title": "Relocalisation complète des expatriés",
+        "body": "Recherche de logement, placement en école internationale et démarches auprès de la commune.",
+        "href": "/services/relocation"
+      },
+      {
+        "title": "Soutien administratif exécutif",
+        "body": "Administration bilingue flexible et gestion d’agenda pour les dirigeants et administrateurs en déplacement.",
+        "href": "/services/corporate-concierge"
+      }
+    ]
+  },
+  "packages": {
+    "eyebrow": "Formules d’adhésion",
+    "title": "Des modèles d’engagement flexibles, conçus pour votre mode de vie",
+    "body": "Quatre niveaux de service permettent d’adapter le volume, la disponibilité et l’étendue de l’accompagnement.",
+    "note": "Chaque formule est définie lors de l’évaluation des besoins.",
+    "cta": "Planifier une consultation privée",
+    "ctaSecondary": "Voir les services",
+    "items": [
+      {
+        "name": "Conciergerie Essentielle",
+        "tag": "Pour les professionnels actifs",
+        "points": [
+          "15 heures par mois d’assistance au mode de vie",
+          "Réservations prioritaires",
+          "Disponibilité aux heures de bureau"
+        ]
+      },
+      {
+        "name": "Conciergerie Haut de gamme",
+        "tag": "Pour les familles actives et cadres supérieurs",
+        "points": [
+          "40 heures par mois",
+          "Relocalisation et supervision du domicile",
+          "Urgences 24 h/24, 7 j/7 et organisation des voyages"
+        ]
+      },
+      {
+        "name": "Conciergerie Exécutive",
+        "tag": "Pour dirigeants et délégations d’entreprise",
+        "points": [
+          "Soutien complet à l’entreprise",
+          "Hospitalité clients, réunions et protocoles aéroportuaires",
+          "Responsable de compte dédié"
+        ]
+      },
+      {
+        "name": "VIP sur mesure / Patrimoine familial",
+        "tag": "Pour une prise en charge dédiée sans limite",
+        "points": [
+          "Équipe dédiée au mode de vie 24 h/24, 7 j/7",
+          "Gestion de plusieurs résidences et des jets privés",
+          "Accords de confidentialité stricts et accès VIP international"
+        ]
+      }
+    ]
+  },
+  "testimonials": {
+    "eyebrow": "Témoignages et confiance",
+    "title": "Ce que disent nos clients",
+    "body": "Des témoignages sur la précision, la discrétion et le professionnalisme de l’accompagnement.",
+    "note": "",
+    "cta": "Contact",
+    "ctaSecondary": "À propos",
+    "items": [
+      {
+        "quote": "Oravi Lux a transformé la visite de notre délégation exécutive au Luxembourg. De l’accueil VIP à l’aéroport au dîner privé, chaque détail a été géré avec précision et discrétion. Un partenaire indispensable.",
+        "name": "Cadre dirigeant",
+        "role": "Associé-gérant, fonds de private equity international"
+      },
+      {
+        "quote": "Le déménagement de notre famille de Singapour au Luxembourg semblait complexe. Oravi Lux a trouvé notre maison à Limpertsberg et obtenu des places en école internationale avec une parfaite fluidité. Un service remarquable !",
+        "name": "Famille expatriée",
+        "role": "Directeur général senior, technologie financière"
+      },
+      {
+        "quote": "Leur assistance personnelle et leurs services de gestion de propriété me font gagner plusieurs heures chaque semaine. L’équipe est exceptionnellement courtoise, proactive et parfaitement professionnelle.",
+        "name": "Client de banque privée",
+        "role": "Client principal de banque privée très fortuné"
+      }
+    ]
+  },
+  "cta": {
+    "title": "Laissez-nous prendre soin de chaque détail",
+    "body": "Découvrez l’excellence d’une conciergerie personnalisée au Luxembourg.",
+    "audiences": "Personnes fortunées | Dirigeants d’entreprise | Structures patrimoniales familiales | Personnels diplomatiques",
+    "button": "Planifier une consultation privée",
+    "secondary": "À propos",
+    "tertiary": "Voir les services",
+    "email": "E-mail"
+  },
+  "aboutPage": {
+    "title": "Bienvenue chez Oravi Lux",
+    "subtitle": "Votre partenaire de confiance en conciergerie et hospitalité au Luxembourg",
+    "lead": "Redéfinir le luxe et la gestion du temps au Grand-Duché",
+    "body": "Oravi Lux propose des services de conciergerie sur mesure, d’assistance exécutive et de gestion de l’hospitalité au Luxembourg et dans la Grande Région, au service des particuliers fortunés, dirigeants d’entreprise, structures patrimoniales familiales et personnels diplomatiques.",
+    "missionTitle": "Mission",
+    "missionBody": "Restituer à nos clients leur bien le plus précieux — le temps — grâce à des solutions personnalisées exécutées selon les standards de l’hospitalité cinq étoiles.",
+    "visionTitle": "Vision",
+    "visionBody": "Rester le partenaire de conciergerie le plus fiable, agile et discret d’Europe, et établir la référence de la gestion du mode de vie haut de gamme et du soutien aux délégations.",
+    "valueTitle": "Proposition de valeur",
+    "valueBody": "Un réseau luxembourgeois profondément ancré, allié aux standards internationaux du service haut de gamme et à une équipe multilingue dédiée 24 h/24, 7 j/7.",
+    "whyTitle": "Pourquoi nous choisir",
+    "whyBody": "Une expertise locale et un réseau exclusif, des standards internationaux cinq étoiles, une équipe multilingue disponible en permanence et une confidentialité absolue.",
+    "whyTagline": "Précision. Discrétion. Service proactif.",
+    "cta": "Planifier une consultation privée",
+    "ctaSecondary": "Voir les services"
+  },
+  "contactPage": {
+    "title": "Contactez-nous",
+    "subtitle": "Commencez votre parcours vers une gestion du mode de vie d’exception. Planifiez dès aujourd’hui votre consultation privée avec Oravi Lux.",
+    "name": "Nom",
+    "company": "Entreprise",
+    "email": "E-mail",
+    "message": "Comment pouvons-nous vous accompagner ?",
+    "submit": "Envoyer la demande",
+    "sending": "Envoi…",
+    "success": "Merci. Votre demande a été envoyée — nous vous répondrons discrètement.",
+    "error": "Une erreur est survenue. Veuillez réessayer ou nous écrire directement.",
+    "activation": "Vérifiez vos spams/promotions pour un e-mail FormSubmit, cliquez sur Activate Form, puis renvoyez le formulaire.",
+    "office": "Siège au Luxembourg",
+    "phone": "Téléphone",
+    "hours": "Site web"
+  },
+  "footer": {
+    "tagline": "Votre partenaire de confiance en conciergerie et hospitalité au Luxembourg. Gestion du mode de vie sur mesure, soutien aux entreprises, relocalisation et services exécutifs.",
+    "brand": "Oravi Lux",
+    "navigation": "Navigation",
+    "contact": "Contact",
+    "privacy": "Politique de confidentialité",
+    "legal": "Mentions légales",
+    "rights": "Tous droits réservés."
+  },
+  "site": {
+    "email": "contact@oravilux.com",
+    "phone": "+352 20 80 90 00",
+    "address": "26 Boulevard Royal, L-2449 Luxembourg City, Grand Duchy of Luxembourg",
+    "hours": "www.oravilux.com"
+  }
+}

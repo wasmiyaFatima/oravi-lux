@@ -1,0 +1,37 @@
+/** Local premium photography for Oravi Lux */
+export const images = {
+  hero: "/luxembourg/bridge.jpg",
+  intro: "/luxembourg/casemates.jpg",
+  concierge: "/images/concierge.jpg",
+  corporate: "/images/corporate.jpg",
+  relocation: "/images/relocation.jpg",
+  hospitality: "/images/hospitality.jpg",
+  personal: "/images/personal.jpg",
+  executive: "/images/executive.jpg",
+  travel: "/images/travel.jpg",
+  events: "/images/events.jpg",
+  property: "/images/property.jpg",
+  bandConcierge: "/images/concierge.jpg",
+  bandCorporate: "/images/corporate.jpg",
+  bandHospitality: "/images/hospitality.jpg",
+  work1: "/images/executive.jpg",
+  work2: "/images/corporate.jpg",
+  work3: "/images/personal.jpg",
+  work4: "/images/relocation.jpg",
+  work5: "/images/property.jpg",
+  principles: "/luxembourg/casemates.jpg",
+  cta: "/luxembourg/bridge.jpg",
+  values: "/images/hospitality.jpg",
+} as const;
+
+export const serviceImages: Record<string, string> = {
+  concierge: images.concierge,
+  "corporate-concierge": images.corporate,
+  relocation: images.relocation,
+  hospitality: images.hospitality,
+  "personal-assistance": images.personal,
+  "executive-family-office": images.executive,
+  "luxury-travel": images.travel,
+  events: images.events,
+  property: images.property,
+};
