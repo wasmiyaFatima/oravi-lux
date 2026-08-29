@@ -1,0 +1,138 @@
+:root {
+  color-scheme: dark;
+  --panel: rgba(18, 12, 9, 0.78);
+  --line: rgba(232, 214, 186, 0.16);
+  --ink: #f3eadb;
+  --mute: rgba(243, 234, 219, 0.58);
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html,
+body,
+#app {
+  margin: 0;
+  min-height: 100dvh;
+  width: 100%;
+  background: #140e0a;
+}
+
+body {
+  font-family: "Segoe UI", system-ui, sans-serif;
+  color: var(--ink);
+}
+
+#stage {
+  display: block;
+  width: 100%;
+  height: 100dvh;
+}
+
+.panel {
+  position: fixed;
+  z-index: 2;
+  top: 1rem;
+  left: 1rem;
+  width: min(20.5rem, calc(100vw - 2rem));
+  padding: 1.15rem 1.2rem 1.25rem;
+  border: 1px solid var(--line);
+  background: var(--panel);
+  backdrop-filter: blur(16px);
+  border-radius: 2px;
+}
+
+.kicker {
+  margin: 0 0 0.35rem;
+  font-size: 0.68rem;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  color: var(--mute);
+}
+
+h1 {
+  margin: 0;
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: 1.55rem;
+  font-weight: 500;
+  letter-spacing: 0.02em;
+}
+
+.lede,
+.hint {
+  margin: 0.45rem 0 1rem;
+  color: var(--mute);
+  font-size: 0.84rem;
+  line-height: 1.45;
+}
+
+.hint {
+  margin: 0.85rem 0 0;
+  font-size: 0.74rem;
+}
+
+label {
+  display: grid;
+  gap: 0.35rem;
+  margin-bottom: 0.75rem;
+  font-size: 0.74rem;
+  letter-spacing: 0.04em;
+  color: var(--mute);
+}
+
+input[type="range"] {
+  width: 100%;
+  accent-color: #c9b48a;
+}
+
+input[type="color"] {
+  width: 100%;
+  height: 2rem;
+  padding: 0;
+  border: 1px solid var(--line);
+  background: transparent;
+}
+
+.row {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 0.4rem;
+  margin: 0.9rem 0 0.45rem;
+}
+
+button {
+  border: 1px solid var(--line);
+  background: transparent;
+  color: var(--ink);
+  padding: 0.48rem 0.4rem;
+  font: inherit;
+  font-size: 0.75rem;
+  letter-spacing: 0.04em;
+  cursor: pointer;
+}
+
+button:hover,
+button:focus-visible {
+  border-color: #c9b48a;
+}
+
+.reset {
+  width: 100%;
+}
+
+@media (max-width: 720px) {
+  .panel {
+    top: auto;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    border-radius: 0;
+    max-height: 46dvh;
+    overflow: auto;
+  }
+
+  #stage {
+    height: 100dvh;
+  }
+}

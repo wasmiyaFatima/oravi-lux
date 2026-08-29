@@ -78,3 +78,27 @@ body {
     radial-gradient(ellipse 50% 40% at 100% 100%, color-mix(in srgb, var(--accent) 12%, transparent), transparent 50%),
     var(--dark);
 }
+
+@keyframes oravi-intro-sheen {
+  0% {
+    transform: translateX(-30%);
+    opacity: 0;
+  }
+  22% {
+    opacity: 0.85;
+  }
+  100% {
+    transform: translateX(220%);
+    opacity: 0;
+  }
+}
+
+.oravi-intro-sheen {
+  animation: oravi-intro-sheen 2.4s cubic-bezier(0.22, 0.82, 0.28, 1) both;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .oravi-intro-sheen {
+    animation: none;
+  }
+}
