@@ -200,7 +200,9 @@ export async function createLogoScene(
   const layers: ParsedLayer[] = [];
 
   for (const path of svg.paths) {
-    const fill = String(path.userData.style?.fill ?? "");
+    const fill = String(
+      (path.userData.style as { fill?: string } | undefined)?.fill ?? "",
+    );
     if (isSkippedFill(fill)) continue;
     const shapes = path.toShapes();
     if (!shapes.length) continue;
