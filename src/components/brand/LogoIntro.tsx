@@ -7,7 +7,7 @@ import { useEffect, useState } from "react";
 const HOLD_MS = 2600;
 const FADE_MS = 560;
 const REVEAL_MS = 900;
-const CREAM = "#F6EED4";
+const SPLASH_BG = "#ffffff";
 
 export function LogoIntro() {
   const reduceMotion = useReducedMotion();
@@ -50,7 +50,7 @@ export function LogoIntro() {
     <div
       className="fixed inset-0 z-[80] flex min-h-[100dvh] flex-col items-center"
       style={{
-        background: CREAM,
+        background: SPLASH_BG,
         opacity: fading ? 0 : 1,
         transition: `opacity ${FADE_MS}ms ease`,
         pointerEvents: fading ? "none" : "auto",

@@ -49,8 +49,8 @@ export function ExperienceBands() {
                 className="object-cover transition-transform duration-[1.4s] ease-out group-hover:scale-105"
                 sizes="(max-width: 1024px) 100vw, 33vw"
               />
-              <div className="absolute inset-0 bg-gradient-to-t from-dark via-dark/50 to-dark/30" />
-              <div className="relative z-10">
+              <div className="media-scrim absolute inset-0" />
+              <div className="media-copy relative z-10">
                 <p className="text-[0.65rem] tracking-[0.3em] text-accent-on-dark uppercase">
                   {t(`${band.key}.eyebrow`)}
                 </p>

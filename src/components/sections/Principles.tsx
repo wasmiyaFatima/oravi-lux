@@ -21,10 +21,8 @@ export function Principles() {
       className="relative overflow-hidden border-t border-border bg-dark py-24 text-on-dark md:py-32"
     >
       <ParallaxImage src={images.principles} overlay="heavy" />
-      <div className="absolute inset-0 bg-dark/55" />
-      <div className="pointer-events-none absolute inset-0 bg-[radial-gradient(ellipse_70%_50%_at_20%_0%,rgba(243,217,160),0.24),transparent_55%)]" />
 
-      <Container className="relative">
+      <Container className="media-copy relative">
         <div className="grid gap-12 lg:grid-cols-12">
           <Reveal className="lg:col-span-5" variant="fade-right">
             <p className="text-[0.65rem] tracking-[0.28em] text-accent-on-dark uppercase">

@@ -24,13 +24,10 @@ export function Hero() {
           preload="auto"
           aria-hidden="true"
         />
-        <div
-          className="pointer-events-none absolute inset-0"
-          style={{ background: "rgba(97, 64, 40, 0.4)" }}
-        />
+        <div className="media-scrim-hero pointer-events-none absolute inset-0" />
       </div>
 
-      <Container className="relative flex min-h-[100dvh] flex-col justify-end pb-20 pt-32 md:pb-28 md:pt-36">
+      <Container className="media-copy relative flex min-h-[100dvh] flex-col justify-end pb-20 pt-32 md:pb-28 md:pt-36">
         <div className="grid gap-12 lg:grid-cols-12 lg:items-end">
           <div className="lg:col-span-8">
             <motion.p

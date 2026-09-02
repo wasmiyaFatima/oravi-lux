@@ -49,8 +49,8 @@ export function ServicesGrid() {
                   className="object-cover transition-transform duration-[1.2s] ease-out group-hover:scale-110"
                   sizes="(max-width: 1024px) 50vw, 33vw"
                 />
-                <div className="absolute inset-0 bg-gradient-to-t from-dark via-dark/45 to-dark/10 transition-opacity duration-500 group-hover:from-dark/95" />
-                <div className="absolute inset-x-0 bottom-0 p-6 md:p-8">
+                <div className="media-scrim absolute inset-0" />
+                <div className="media-copy absolute inset-x-0 bottom-0 p-6 md:p-8">
                   <span className="font-display text-4xl text-white/20">
                     {String(index + 1).padStart(2, "0")}
                   </span>

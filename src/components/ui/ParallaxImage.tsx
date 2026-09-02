@@ -37,9 +37,9 @@ export function ParallaxImage({
 
   const overlays: Record<string, string> = {
     none: "",
-    soft: "bg-gradient-to-t from-dark/55 via-dark/15 to-dark/25",
-    default: "bg-gradient-to-t from-dark/80 via-dark/35 to-dark/45",
-    heavy: "bg-gradient-to-t from-dark/92 via-dark/55 to-dark/60",
+    soft: "media-scrim",
+    default: "media-scrim-hero",
+    heavy: "media-scrim-cover",
   };
 
   return (

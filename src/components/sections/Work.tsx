@@ -63,8 +63,8 @@ export function Work() {
                   className="object-cover transition-transform duration-[1.3s] ease-out group-hover:scale-110"
                   sizes="(max-width: 768px) 100vw, 33vw"
                 />
-                <div className="absolute inset-0 bg-gradient-to-t from-dark/90 via-dark/35 to-transparent" />
-                <div className="absolute inset-x-0 bottom-0 p-6 md:p-8">
+                <div className="media-scrim absolute inset-0" />
+                <div className="media-copy absolute inset-x-0 bottom-0 p-6 md:p-8">
                   <h3 className="font-display text-2xl text-white md:text-3xl">
                     {item.title}
                   </h3>

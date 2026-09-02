@@ -55,9 +55,8 @@ export default async function ServicePage({ params }: Props) {
           className="object-cover"
           sizes="100vw"
         />
-        <div className="absolute inset-0 bg-gradient-to-t from-dark via-dark/55 to-dark/25" />
-        <div className="pointer-events-none absolute inset-0 bg-[radial-gradient(ellipse_70%_50%_at_80%_10%,rgba(243,217,160),0.22),transparent_55%)]" />
-        <Container className="relative flex min-h-[78vh] flex-col justify-end pb-16 md:min-h-[88vh] md:pb-20">
+        <div className="media-scrim-hero absolute inset-0" />
+        <Container className="media-copy relative flex min-h-[78vh] flex-col justify-end pb-16 md:min-h-[88vh] md:pb-20">
           <Reveal>
             <p className="mb-4 text-[0.65rem] tracking-[0.28em] text-accent-on-dark uppercase">
               {t("eyebrow")}

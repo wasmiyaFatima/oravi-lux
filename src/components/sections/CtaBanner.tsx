@@ -14,10 +14,8 @@ export function CtaBanner() {
   return (
     <section className="relative overflow-hidden border-t border-border py-28 text-on-dark md:py-36">
       <ParallaxImage src={images.cta} overlay="heavy" />
-      <div className="absolute inset-0 bg-dark/50" />
-      <div className="pointer-events-none absolute inset-0 bg-[radial-gradient(ellipse_80%_55%_at_50%_0%,rgba(243,217,160,0.28),transparent_58%)]" />
 
-      <Container className="relative">
+      <Container className="media-copy relative">
         <Reveal className="mx-auto max-w-3xl text-center" variant="scale">
           <h2 className="font-display text-4xl tracking-tight md:text-6xl">
             {t("title")}

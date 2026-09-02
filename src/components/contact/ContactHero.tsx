@@ -20,12 +20,9 @@ export function ContactHero() {
         preload="auto"
         aria-hidden="true"
       />
-      <div
-        className="pointer-events-none absolute inset-0"
-        style={{ background: "rgba(97, 64, 40, 0.4)" }}
-      />
+      <div className="media-scrim-hero pointer-events-none absolute inset-0" />
 
-      <Container className="relative flex min-h-[72dvh] flex-col justify-end pb-16 pt-32 md:min-h-[78dvh] md:pb-24 md:pt-36">
+      <Container className="media-copy relative flex min-h-[72dvh] flex-col justify-end pb-16 pt-32 md:min-h-[78dvh] md:pb-24 md:pt-36">
         <p className="text-[0.68rem] tracking-[0.28em] text-accent-on-dark uppercase">
           {t("heroEyebrow")}
         </p>

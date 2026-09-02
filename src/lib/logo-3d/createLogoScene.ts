@@ -88,7 +88,7 @@ export async function createLogoScene(
   const quality = options.quality ?? "studio";
   const params: LogoSceneParams = { ...DEFAULTS };
   if (quality === "intro") {
-    params.background = "#F6EED4";
+    params.background = "#ffffff";
     params.bevel = 0.3;
     params.depth = 8.4;
     params.metalness = 0.92;

@@ -72,7 +72,7 @@ export function Frequent() {
                     className="object-cover transition-transform duration-[1.2s] ease-out group-hover:scale-110"
                     sizes="(max-width: 1024px) 50vw, 33vw"
                   />
-                  <div className="absolute inset-0 bg-gradient-to-t from-dark/35 via-transparent to-transparent opacity-80 transition-opacity duration-500 group-hover:opacity-100" />
+                  <div className="absolute inset-0 bg-gradient-to-t from-black/25 to-transparent" />
                   <span className="absolute top-4 left-4 font-display text-2xl text-white/35 md:text-3xl">
                     {String(index + 1).padStart(2, "0")}
                   </span>
