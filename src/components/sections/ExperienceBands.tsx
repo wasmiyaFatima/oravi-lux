@@ -51,7 +51,7 @@ export function ExperienceBands() {
               />
               <div className="absolute inset-0 bg-gradient-to-t from-dark via-dark/50 to-dark/30" />
               <div className="relative z-10">
-                <p className="text-[0.65rem] tracking-[0.3em] text-accent uppercase">
+                <p className="text-[0.65rem] tracking-[0.3em] text-accent-on-dark uppercase">
                   {t(`${band.key}.eyebrow`)}
                 </p>
                 <h3 className="font-display mt-3 max-w-xs text-3xl leading-tight text-on-dark md:text-4xl">
@@ -60,7 +60,7 @@ export function ExperienceBands() {
                 <p className="mt-3 max-w-sm text-sm leading-relaxed text-on-dark-muted">
                   {t(`${band.key}.body`)}
                 </p>
-                <span className="mt-8 inline-flex w-fit items-center gap-3 text-[0.65rem] tracking-[0.24em] text-on-dark uppercase transition-colors duration-500 group-hover:text-accent">
+                <span className="mt-8 inline-flex w-fit items-center gap-3 text-[0.65rem] tracking-[0.24em] text-on-dark uppercase transition-colors duration-500 group-hover:text-accent-on-dark">
                   {t(`${band.key}.cta`)}
                   <span
                     aria-hidden

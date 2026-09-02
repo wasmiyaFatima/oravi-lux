@@ -56,10 +56,10 @@ export default async function ServicePage({ params }: Props) {
           sizes="100vw"
         />
         <div className="absolute inset-0 bg-gradient-to-t from-dark via-dark/55 to-dark/25" />
-        <div className="pointer-events-none absolute inset-0 bg-[radial-gradient(ellipse_70%_50%_at_80%_10%,rgba(166,137,102,0.22),transparent_55%)]" />
+        <div className="pointer-events-none absolute inset-0 bg-[radial-gradient(ellipse_70%_50%_at_80%_10%,rgba(243,217,160),0.22),transparent_55%)]" />
         <Container className="relative flex min-h-[78vh] flex-col justify-end pb-16 md:min-h-[88vh] md:pb-20">
           <Reveal>
-            <p className="mb-4 text-[0.65rem] tracking-[0.28em] text-accent uppercase">
+            <p className="mb-4 text-[0.65rem] tracking-[0.28em] text-accent-on-dark uppercase">
               {t("eyebrow")}
             </p>
             <h1 className="font-display max-w-4xl text-4xl tracking-tight text-white md:text-6xl">
@@ -96,7 +96,7 @@ export default async function ServicePage({ params }: Props) {
             ) : null}
           </Reveal>
           <Reveal delay={0.08} className="lg:col-span-5">
-            <div className="rounded-3xl border border-border bg-surface p-7 shadow-[0_24px_60px_rgba(23,15,0,0.06)] md:p-8">
+            <div className="rounded-3xl border border-border bg-surface p-7 shadow-[0_24px_60px_rgba(74,55,40,0.06)] md:p-8">
               <p className="text-[0.65rem] tracking-[0.22em] text-accent uppercase">
                 {t("pointsTitle")}
               </p>
@@ -166,7 +166,7 @@ export default async function ServicePage({ params }: Props) {
       </section>
 
       <section className="relative overflow-hidden border-t border-border bg-dark px-3 py-16 text-on-dark sm:px-5 md:px-8 md:py-24">
-        <div className="pointer-events-none absolute inset-0 bg-[radial-gradient(ellipse_70%_60%_at_50%_0%,rgba(166,137,102,0.28),transparent_55%)]" />
+        <div className="pointer-events-none absolute inset-0 bg-[radial-gradient(ellipse_70%_60%_at_50%_0%,rgba(243,217,160),0.28),transparent_55%)]" />
         <Container className="relative">
           <Reveal className="mx-auto max-w-3xl rounded-[2rem] border border-white/10 bg-white/[0.03] px-8 py-12 text-center backdrop-blur-sm md:px-14 md:py-16">
             <h2 className="font-display text-3xl tracking-tight md:text-5xl">
@@ -182,14 +182,14 @@ export default async function ServicePage({ params }: Props) {
               <Button
                 href="/about"
                 variant="secondary"
-                className="border-white/30 text-on-dark hover:border-accent hover:text-accent"
+                className="border-white/30 text-on-dark hover:border-accent-on-dark hover:text-accent-on-dark"
               >
                 {tn("about")}
               </Button>
               <Button
                 href="/#services"
                 variant="secondary"
-                className="border-white/30 text-on-dark hover:border-accent hover:text-accent"
+                className="border-white/30 text-on-dark hover:border-accent-on-dark hover:text-accent-on-dark"
               >
                 {tn("services")}
               </Button>

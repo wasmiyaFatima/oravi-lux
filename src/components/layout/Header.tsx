@@ -33,7 +33,7 @@ function NavLink({
       {children}
       <span
         aria-hidden
-        className="absolute inset-x-0 -bottom-1 h-px origin-center scale-x-0 bg-accent/80 transition-transform duration-500 ease-out group-hover:scale-x-100"
+        className="absolute inset-x-0 -bottom-1 h-px origin-center scale-x-0 bg-accent-on-dark/80 transition-transform duration-500 ease-out group-hover:scale-x-100"
       />
     </Link>
   );
@@ -90,7 +90,7 @@ export function Header() {
           : "bg-gradient-to-b from-dark via-dark/95 to-dark/80"
       }`}
     >
-      <div className="pointer-events-none absolute inset-x-0 bottom-0 h-px bg-gradient-to-r from-transparent via-accent/45 to-transparent" />
+      <div className="pointer-events-none absolute inset-x-0 bottom-0 h-px bg-gradient-to-r from-transparent via-accent-on-dark/45 to-transparent" />
 
       <Container className="grid h-[4.75rem] grid-cols-[auto_1fr_auto] items-center gap-4 md:h-[5.75rem]">
         <motion.div
@@ -124,7 +124,7 @@ export function Header() {
               />
               <span
                 aria-hidden
-                className={`absolute inset-x-0 -bottom-1 h-px origin-center bg-accent/80 transition-transform duration-500 ease-out ${
+                className={`absolute inset-x-0 -bottom-1 h-px origin-center bg-accent-on-dark/80 transition-transform duration-500 ease-out ${
                   servicesOpen ? "scale-x-100" : "scale-x-0 group-hover:scale-x-100"
                 }`}
               />
@@ -182,7 +182,7 @@ export function Header() {
                   locale={code}
                   className={`text-[0.62rem] tracking-[0.16em] transition-colors duration-300 ${
                     code === locale
-                      ? "text-accent"
+                      ? "text-accent-on-dark"
                       : "text-on-dark-muted hover:text-on-dark"
                   }`}
                 >
@@ -194,11 +194,11 @@ export function Header() {
 
           <Link
             href="/contact"
-            className="group relative overflow-hidden whitespace-nowrap border border-accent/50 px-5 py-2.5 text-[0.62rem] tracking-[0.2em] text-on-dark uppercase transition-colors duration-500 hover:border-accent hover:text-dark"
+            className="group relative overflow-hidden whitespace-nowrap border border-accent-on-dark/50 px-5 py-2.5 text-[0.62rem] tracking-[0.2em] text-on-dark uppercase transition-colors duration-500 hover:border-accent-on-dark hover:text-dark"
           >
             <span
               aria-hidden
-              className="absolute inset-0 origin-left scale-x-0 bg-accent transition-transform duration-500 ease-out group-hover:scale-x-100"
+              className="absolute inset-0 origin-left scale-x-0 bg-accent-on-dark transition-transform duration-500 ease-out group-hover:scale-x-100"
             />
             <span className="relative">{t("speak")}</span>
           </Link>
@@ -258,7 +258,7 @@ export function Header() {
                 </motion.div>
               ))}
 
-              <p className="mt-4 mb-1 text-[0.6rem] tracking-[0.28em] text-accent uppercase">
+              <p className="mt-4 mb-1 text-[0.6rem] tracking-[0.28em] text-accent-on-dark uppercase">
                 {t("services")}
               </p>
               {serviceSlugs.map((slug, i) => (
@@ -291,7 +291,7 @@ export function Header() {
                       locale={code}
                       onClick={closeAll}
                       className={`text-[0.7rem] tracking-[0.2em] ${
-                        code === locale ? "text-accent" : "text-on-dark-muted"
+                        code === locale ? "text-accent-on-dark" : "text-on-dark-muted"
                       }`}
                     >
                       {localeLabels[code]}
@@ -303,7 +303,7 @@ export function Header() {
               <Link
                 href="/contact"
                 onClick={closeAll}
-                className="mt-6 w-fit border border-accent/50 px-5 py-3 text-[0.65rem] tracking-[0.2em] text-on-dark uppercase"
+                className="mt-6 w-fit border border-accent-on-dark/50 px-5 py-3 text-[0.65rem] tracking-[0.2em] text-on-dark uppercase"
               >
                 {t("speak")}
               </Link>

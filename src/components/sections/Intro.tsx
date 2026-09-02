@@ -52,7 +52,7 @@ export function Intro() {
               />
               <div className="absolute inset-0 bg-gradient-to-t from-dark/40 to-transparent" />
             </div>
-            <div className="absolute -bottom-6 left-4 right-4 grid grid-cols-3 gap-4 rounded-xl bg-dark px-6 py-5 text-on-dark shadow-[0_24px_60px_rgba(23,15,0,0.25)] sm:left-6 sm:right-auto sm:w-[min(100%,28rem)] md:bottom-[-1.25rem] md:right-[-1.25rem] md:left-auto md:w-[28rem] lg:w-[30rem]">
+            <div className="absolute -bottom-6 left-4 right-4 grid grid-cols-3 gap-4 rounded-xl bg-dark px-6 py-5 text-on-dark shadow-[0_24px_60px_rgba(74,55,40,0.25)] sm:left-6 sm:right-auto sm:w-[min(100%,28rem)] md:bottom-[-1.25rem] md:right-[-1.25rem] md:left-auto md:w-[28rem] lg:w-[30rem]">
               {[1, 2, 3].map((n) => (
                 <div key={n} className="min-w-0">
                   <p className="font-display text-2xl text-accent md:text-3xl">

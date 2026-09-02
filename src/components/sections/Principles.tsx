@@ -22,12 +22,12 @@ export function Principles() {
     >
       <ParallaxImage src={images.principles} overlay="heavy" />
       <div className="absolute inset-0 bg-dark/55" />
-      <div className="pointer-events-none absolute inset-0 bg-[radial-gradient(ellipse_70%_50%_at_20%_0%,rgba(166,137,102,0.24),transparent_55%)]" />
+      <div className="pointer-events-none absolute inset-0 bg-[radial-gradient(ellipse_70%_50%_at_20%_0%,rgba(243,217,160),0.24),transparent_55%)]" />
 
       <Container className="relative">
         <div className="grid gap-12 lg:grid-cols-12">
           <Reveal className="lg:col-span-5" variant="fade-right">
-            <p className="text-[0.65rem] tracking-[0.28em] text-accent uppercase">
+            <p className="text-[0.65rem] tracking-[0.28em] text-accent-on-dark uppercase">
               {t("eyebrow")}
             </p>
             <h2 className="font-display mt-4 text-3xl tracking-tight md:text-5xl">
@@ -43,7 +43,7 @@ export function Principles() {
               <Button
                 href="/contact"
                 variant="secondary"
-                className="border-white/30 text-on-dark hover:border-accent hover:text-accent"
+                className="border-white/30 text-on-dark hover:border-accent-on-dark hover:text-accent-on-dark"
               >
                 {t("ctaSecondary")}
               </Button>
@@ -53,7 +53,7 @@ export function Principles() {
             {items.map((item, index) => (
               <Reveal key={item.title} delay={index * 0.05} variant="fade-left">
                 <div className="border-t border-white/10 pt-5">
-                  <p className="font-display text-4xl text-accent md:text-5xl">
+                  <p className="font-display text-4xl text-accent-on-dark md:text-5xl">
                     {item.title}
                   </p>
                   <h3 className="mt-2 text-base font-medium tracking-wide text-on-dark uppercase">

@@ -5,12 +5,12 @@ type Variant = "primary" | "secondary" | "ghost" | "onDark";
 
 const styles: Record<Variant, string> = {
   primary:
-    "bg-dark text-on-dark hover:bg-dark/90 border border-transparent shadow-[0_10px_30px_rgba(23,15,0,0.12)]",
+    "bg-dark text-on-dark hover:bg-dark/90 border border-transparent shadow-[0_10px_30px_rgba(74,55,40,0.12)]",
   secondary:
     "bg-transparent text-foreground border border-dark/15 hover:border-dark/40 hover:bg-dark/[0.03]",
   ghost: "bg-transparent text-foreground hover:text-accent border border-transparent",
   onDark:
-    "bg-accent text-dark hover:bg-accent-hover border border-transparent shadow-[0_12px_32px_rgba(166,137,102,0.28)]",
+    "bg-accent-on-dark text-dark hover:bg-accent-on-dark-hover border border-transparent shadow-[0_12px_32px_rgba(243,217,160,0.35)]",
 };
 
 export function Button({

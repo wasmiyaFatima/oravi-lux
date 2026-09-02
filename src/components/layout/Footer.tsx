@@ -20,7 +20,7 @@ export async function Footer() {
           </p>
         </div>
         <div>
-          <p className="text-[0.65rem] tracking-[0.22em] text-accent uppercase">
+          <p className="text-[0.65rem] tracking-[0.22em] text-accent-on-dark uppercase">
             {t("navigation")}
           </p>
           <ul className="mt-5 space-y-3 text-sm text-on-dark-muted">
@@ -52,7 +52,7 @@ export async function Footer() {
           </ul>
         </div>
         <div>
-          <p className="text-[0.65rem] tracking-[0.22em] text-accent uppercase">
+          <p className="text-[0.65rem] tracking-[0.22em] text-accent-on-dark uppercase">
             {t("contact")}
           </p>
           <ul className="mt-5 space-y-3 text-sm text-on-dark-muted">

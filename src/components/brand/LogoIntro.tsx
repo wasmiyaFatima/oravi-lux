@@ -59,7 +59,7 @@ export function LogoIntro() {
     >
       <div className="flex min-h-0 w-full flex-1 items-center justify-center px-4">
         <div
-          className="relative w-[min(64vw,26rem)]"
+          className="flex w-full max-w-[40rem] flex-col items-center"
           style={{
             opacity: revealed || motionOff ? 1 : 0,
             transform: revealed || motionOff ? "scale(1)" : "scale(0.97)",
@@ -68,16 +68,21 @@ export function LogoIntro() {
               : `opacity ${REVEAL_MS}ms cubic-bezier(0.22, 1, 0.36, 1), transform ${REVEAL_MS}ms cubic-bezier(0.22, 1, 0.36, 1)`,
           }}
         >
-          <Image
-            src="/brand/oravi-lux-emblem.svg"
-            alt=""
-            width={580}
-            height={497}
-            priority
-            unoptimized
-            className="h-auto w-full"
-            onLoad={() => setRevealed(true)}
-          />
+          <div className="relative w-[min(64vw,26rem)]">
+            <Image
+              src="/brand/oravi-lux-emblem.svg"
+              alt=""
+              width={580}
+              height={497}
+              priority
+              unoptimized
+              className="h-auto w-full"
+              onLoad={() => setRevealed(true)}
+            />
+          </div>
+          <p className="mt-6 px-2 text-center font-sans text-[0.95rem] font-medium tracking-[0.14em] text-[#6b4a28] uppercase md:mt-7 md:text-[1.2rem]">
+            Concierge & Hospitality Services
+          </p>
         </div>
       </div>
 
