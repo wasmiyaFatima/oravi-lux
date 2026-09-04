@@ -17,7 +17,7 @@ export function CtaBanner() {
         src={images.cta}
         alt=""
         fill
-        className="object-cover object-[72%_center]"
+        className="object-cover object-[55%_38%] md:object-[72%_center]"
         sizes="100vw"
       />
       <div
