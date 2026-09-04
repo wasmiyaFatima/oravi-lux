@@ -20,7 +20,7 @@ export const images = {
   work4: "/images/relocation.jpg",
   work5: "/images/property.jpg",
   principles: "/luxembourg/casemates.jpg",
-  cta: "/luxembourg/bridge.jpg",
+  cta: "/images/elephant-oravi.jpg",
   values: "/images/hospitality.jpg",
 } as const;
 
