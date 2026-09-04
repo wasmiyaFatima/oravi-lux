@@ -12,12 +12,12 @@ export function CtaBanner() {
   const site = useTranslations("site");
 
   return (
-    <section className="relative min-h-[70dvh] overflow-hidden border-t border-border">
+    <section className="relative min-h-[70dvh] overflow-hidden border-t border-border md:min-h-[78dvh]">
       <Image
         src={images.cta}
         alt=""
         fill
-        className="object-cover object-[55%_38%] md:object-[72%_center]"
+        className="object-cover object-[55%_38%] md:object-[72%_top]"
         sizes="100vw"
       />
       <div
@@ -25,7 +25,7 @@ export function CtaBanner() {
         style={{ background: "rgba(97, 64, 40, 0.22)" }}
       />
 
-      <Container className="media-copy relative flex min-h-[70dvh] flex-col justify-center py-24 md:py-32">
+      <Container className="media-copy relative flex min-h-[70dvh] flex-col justify-center py-24 md:min-h-[78dvh] md:py-32">
         <Reveal className="max-w-xl md:max-w-2xl" variant="fade-right">
           <h2 className="font-display text-4xl tracking-tight text-on-dark md:text-6xl">
             {t("title")}
