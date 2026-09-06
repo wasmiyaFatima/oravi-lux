@@ -1,7 +1,7 @@
 {
   "meta": {
     "title": "Oravi Lux | Conciergerie et hospitalité au Luxembourg",
-    "description": "Conciergerie sur mesure, assistance exécutive, relocalisation et gestion de l’hospitalité au Luxembourg et dans la Grande Région."
+    "description": "Conciergerie sur mesure, assistance exécutive et gestion de l’hospitalité au Luxembourg et dans la Grande Région."
   },
   "nav": {
     "home": "Accueil",
@@ -316,7 +316,7 @@
     "partner": "Votre partenaire de confiance en conciergerie et hospitalité au Luxembourg",
     "line1": "Gestion du quotidien.",
     "line2": "Excellence sur mesure.",
-    "subtitle": "Gestion du mode de vie sur mesure • soutien aux entreprises • relocalisation • services exécutifs",
+    "subtitle": "Gestion du quotidien sur mesure • soutien aux entreprises • services exécutifs",
     "cta": "Planifier une consultation privée",
     "secondary": "Voir les services",
     "tertiary": "À propos",
@@ -385,16 +385,16 @@
       "cta": "Voir le service entreprise"
     },
     "concierge": {
-      "eyebrow": "Relocalisation",
-      "title": "Une transition fluide vers la vie au Grand-Duché",
-      "body": "Logement, scolarité, démarches administratives et installation du foyer coordonnés avec soin.",
-      "cta": "Voir la relocalisation"
+      "eyebrow": "Hospitalité",
+      "title": "Des premières impressions impeccablement gérées",
+      "body": "Un accueil haut de gamme pour visiteurs VIP, délégations, clients privés et programmes d’hospitalité d’entreprise.",
+      "cta": "Voir l’hospitalité"
     }
   },
   "servicesSection": {
     "eyebrow": "Services",
     "title": "Une expertise complète, adaptée à votre quotidien",
-    "body": "Conciergerie, assistance exécutive, relocalisation, hospitalité, voyages, événements et supervision de résidences au Luxembourg et au-delà.",
+    "body": "Conciergerie, assistance exécutive, hospitalité, voyages et événements au Luxembourg et au-delà.",
     "cta": "Contact",
     "ctaSecondary": "À propos",
     "learnMore": "Voir le service"
@@ -617,7 +617,7 @@
     "hours": "Site web"
   },
   "footer": {
-    "tagline": "Votre partenaire de confiance en conciergerie et hospitalité au Luxembourg. Gestion du mode de vie sur mesure, soutien aux entreprises, relocalisation et services exécutifs.",
+    "tagline": "Votre partenaire de confiance en conciergerie et hospitalité au Luxembourg. Conciergerie sur mesure, soutien aux entreprises et services exécutifs.",
     "brand": "Oravi Lux",
     "navigation": "Navigation",
     "contact": "Contact",

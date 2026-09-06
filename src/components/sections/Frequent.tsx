@@ -6,6 +6,7 @@ import { Container } from "@/components/layout/Container";
 import { Button } from "@/components/ui/Button";
 import { Reveal } from "@/components/ui/Reveal";
 import { Link } from "@/i18n/navigation";
+import { pausedServiceSlugs } from "@/i18n/routing";
 import { images } from "@/lib/images";
 
 const itemImages = [
@@ -23,6 +24,13 @@ export function Frequent() {
     body: string;
     href: string;
   }[];
+  // Hide paused services (relocation, property) until they are offered again
+  const hiddenHrefs = new Set(
+    pausedServiceSlugs.map((slug) => `/services/${slug}`),
+  );
+  const visible = items
+    .map((item, index) => ({ item, image: itemImages[index] ?? images.concierge }))
+    .filter(({ item }) => !hiddenHrefs.has(item.href));
 
   return (
     <section
@@ -53,12 +61,16 @@ export function Frequent() {
         </div>
 
         <div className="mt-14 grid gap-5 sm:grid-cols-2 lg:grid-cols-3">
-          {items.map((item, index) => (
+          {visible.map(({ item, image }, index) => (
             <Reveal
               key={item.title}
               delay={index * 0.06}
               variant="fade-up"
-              className={index === 4 ? "sm:col-span-2 lg:col-span-1" : undefined}
+              className={
+                index === visible.length - 1 && visible.length % 2 === 1
+                  ? "sm:col-span-2 lg:col-span-1"
+                  : undefined
+              }
             >
               <Link
                 href={item.href}
@@ -66,7 +78,7 @@ export function Frequent() {
               >
                 <div className="relative aspect-[16/10] overflow-hidden">
                   <Image
-                    src={itemImages[index] ?? images.concierge}
+                    src={image}
                     alt=""
                     fill
                     className="object-cover transition-transform duration-[1.2s] ease-out group-hover:scale-110"

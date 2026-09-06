@@ -1,7 +1,7 @@
 {
   "meta": {
     "title": "Oravi Lux | Concierge & Hospitality Partner in Luxembourg",
-    "description": "Your trusted concierge and hospitality partner in Luxembourg. Bespoke lifestyle management, corporate support, relocation and VIP hospitality."
+    "description": "Your trusted concierge and hospitality partner in Luxembourg. Bespoke concierge, corporate support and VIP hospitality."
   },
   "nav": {
     "home": "Home",
@@ -306,7 +306,7 @@
     "partner": "Your Trusted Concierge & Hospitality Partner in Luxembourg",
     "line1": "Luxury service.",
     "line2": "Local precision.",
-    "subtitle": "Bespoke lifestyle management, corporate support, relocation and VIP hospitality.",
+    "subtitle": "Bespoke concierge, corporate support and VIP hospitality.",
     "cta": "Start with a confidential consultation",
     "secondary": "View services",
     "tertiary": "About us",
@@ -323,7 +323,7 @@
     "card2Title": "Vision",
     "card2Body": "To set the benchmark for modern concierge and hospitality excellence in the Grand Duchy — combining local expertise with international service discipline.",
     "card3Title": "Value Proposition",
-    "card3Body": "One trusted point of contact for lifestyle management, corporate concierge, relocation, events and VIP services — coordinated with accountability from the first request to ongoing support.",
+    "card3Body": "One trusted point of contact for concierge, corporate support, events and VIP services, coordinated with accountability from the first request to ongoing support.",
     "stat1Value": "47.0%",
     "stat1Label": "Foreign residents",
     "stat2Value": "181",
@@ -454,7 +454,7 @@
       },
       {
         "title": "Personalized Solution",
-        "body": "A tailored plan across concierge, hospitality, relocation or executive support — shaped around your lifestyle or organisation."
+        "body": "A tailored plan across concierge, hospitality or executive support, shaped around your organisation."
       },
       {
         "title": "Execution",
@@ -591,7 +591,7 @@
     "visionTitle": "Vision",
     "visionBody": "To set the benchmark for modern concierge and hospitality excellence in the Grand Duchy.",
     "valueTitle": "Value Proposition",
-    "valueBody": "One trusted point of contact for lifestyle, corporate, relocation, events and VIP services.",
+    "valueBody": "One trusted point of contact for concierge, corporate, events and VIP services.",
     "whyTitle": "Why choose us",
     "whyBody": "Trust built on service standards. A premium concierge partner with local expertise and international hospitality discipline.",
     "whyTagline": "Discreet. Responsive. Connected.",
@@ -616,7 +616,7 @@
     "hours": "Website"
   },
   "footer": {
-    "tagline": "Your Trusted Concierge & Hospitality Partner in Luxembourg. Bespoke lifestyle management, corporate support, relocation and VIP hospitality.",
+    "tagline": "Your Trusted Concierge & Hospitality Partner in Luxembourg. Bespoke concierge, corporate support and VIP hospitality.",
     "brand": "Oravi Lux",
     "navigation": "Navigation",
     "contact": "Contact",

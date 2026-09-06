@@ -9,8 +9,8 @@ export const routing = defineRouting({
   localePrefix: "always",
 });
 
-/** Matches Oravi Lux English marketing deck services */
-export const serviceSlugs = [
+/** Full service catalogue, including offerings paused until they are provided again */
+export const allServiceSlugs = [
   "concierge",
   "corporate-concierge",
   "relocation",
@@ -22,4 +22,20 @@ export const serviceSlugs = [
   "property",
 ] as const;
 
-export type ServiceSlug = (typeof serviceSlugs)[number];
+export type ServiceSlug = (typeof allServiceSlugs)[number];
+
+/**
+ * Hidden for now: not currently offered.
+ * To restore a service later, remove its slug from this list.
+ * - relocation: Relocation Services
+ * - property: Property & Lifestyle
+ */
+export const pausedServiceSlugs = [
+  "relocation",
+  "property",
+] as const satisfies readonly ServiceSlug[];
+
+const paused = new Set<string>(pausedServiceSlugs);
+
+/** Public services shown in nav, footer, grid, and generated pages */
+export const serviceSlugs = allServiceSlugs.filter((slug) => !paused.has(slug));
