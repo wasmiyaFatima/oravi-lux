@@ -33,16 +33,11 @@ export function ContactForm() {
 
       const result = (await response.json().catch(() => null)) as {
         error?: string;
-        needsActivation?: boolean;
       } | null;
 
       if (!response.ok) {
         setStatus("error");
-        setError(
-          result?.needsActivation
-            ? t("activation")
-            : (result?.error ?? t("error")),
-        );
+        setError(result?.error ?? t("error"));
         return;
       }
 

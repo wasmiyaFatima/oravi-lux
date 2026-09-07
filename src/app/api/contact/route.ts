@@ -1,9 +1,9 @@
 import { NextResponse } from "next/server";
 import { Resend } from "resend";
+import { randomUUID } from "node:crypto";
 
-const RECIPIENT = process.env.CONTACT_EMAIL?.trim() ?? "";
-const SEND_ENABLED =
-  process.env.CONTACT_DISABLE_SEND !== "true" && RECIPIENT.length > 0;
+const RECIPIENT = process.env.CONTACT_EMAIL?.trim() || "lhadji@hotmail.com";
+const SEND_ENABLED = process.env.CONTACT_DISABLE_SEND !== "true";
 
 type ContactBody = {
   name?: string;
@@ -14,6 +14,15 @@ type ContactBody = {
 
 function isValidEmail(value: string) {
   return /^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(value);
+}
+
+function escapeHtml(value: string) {
+  return value
+    .replaceAll("&", "&amp;")
+    .replaceAll("<", "&lt;")
+    .replaceAll(">", "&gt;")
+    .replaceAll('"', "&quot;")
+    .replaceAll("'", "&#39;");
 }
 
 function buildEmailText(input: {
@@ -34,88 +43,22 @@ function buildEmailText(input: {
   ].join("\n");
 }
 
-async function sendWithResend(input: {
+function buildEmailHtml(input: {
   name: string;
   company: string;
   email: string;
   message: string;
 }) {
-  const apiKey = process.env.RESEND_API_KEY;
-  if (!apiKey) return null;
-
-  const resend = new Resend(apiKey);
-  const from =
-    process.env.CONTACT_FROM_EMAIL ?? "Oravi Lux <onboarding@resend.dev>";
-
-  const { error } = await resend.emails.send({
-    from,
-    to: [RECIPIENT],
-    replyTo: input.email,
-    subject: `Oravi Lux enquiry — ${input.name}`,
-    text: buildEmailText(input),
-  });
-
-  if (error) {
-    throw new Error(error.message);
-  }
-
-  return true;
-}
-
-async function sendWithFormSubmit(input: {
-  name: string;
-  company: string;
-  email: string;
-  message: string;
-  origin: string;
-}) {
-  const response = await fetch(
-    `https://formsubmit.co/ajax/${encodeURIComponent(RECIPIENT)}`,
-    {
-      method: "POST",
-      headers: {
-        "Content-Type": "application/json",
-        Accept: "application/json",
-        Origin: input.origin,
-        Referer: `${input.origin}/en/contact`,
-      },
-      body: JSON.stringify({
-        name: input.name,
-        company: input.company,
-        email: input.email,
-        message: input.message,
-        _subject: `Oravi Lux enquiry — ${input.name}`,
-        _replyto: input.email,
-        _template: "table",
-        _captcha: "false",
-      }),
-    },
-  );
-
-  const result = (await response.json().catch(() => null)) as {
-    success?: string | boolean;
-    message?: string;
-  } | null;
-
-  const success =
-    result?.success === true ||
-    result?.success === "true" ||
-    String(result?.message ?? "")
-      .toLowerCase()
-      .includes("submitted");
-
-  if (success) return { ok: true as const };
-
-  const message = result?.message ?? "Unable to send your enquiry right now.";
-  const needsActivation = message.toLowerCase().includes("activation");
-
-  return {
-    ok: false as const,
-    needsActivation,
-    message: needsActivation
-      ? "Activation required: check the inbox (and spam) for FormSubmit’s Activate Form email, click the link, then submit again."
-      : message,
-  };
+  return `
+    <div style="font-family: Georgia, 'Times New Roman', serif; color: #170f00; line-height: 1.5;">
+      <h2 style="margin: 0 0 16px; font-weight: 500;">New Oravi Lux enquiry</h2>
+      <p style="margin: 0 0 8px;"><strong>Name:</strong> ${escapeHtml(input.name)}</p>
+      <p style="margin: 0 0 8px;"><strong>Company:</strong> ${escapeHtml(input.company)}</p>
+      <p style="margin: 0 0 16px;"><strong>Email:</strong> ${escapeHtml(input.email)}</p>
+      <p style="margin: 0 0 8px;"><strong>Message:</strong></p>
+      <p style="margin: 0; white-space: pre-wrap;">${escapeHtml(input.message)}</p>
+    </div>
+  `.trim();
 }
 
 export async function POST(request: Request) {
@@ -150,43 +93,40 @@ export async function POST(request: Request) {
     return NextResponse.json({ error: "Message is too long." }, { status: 400 });
   }
 
-  // Delivery paused — accept the form without sending to any inbox.
   if (!SEND_ENABLED) {
     return NextResponse.json({ ok: true, delivered: false });
   }
 
-  const origin = new URL(request.url).origin;
-
-  try {
-    if (process.env.RESEND_API_KEY) {
-      await sendWithResend({ name, company, email, message });
-      return NextResponse.json({ ok: true, delivered: true });
-    }
-
-    const result = await sendWithFormSubmit({
-      name,
-      company,
-      email,
-      message,
-      origin,
-    });
-
-    if (!result.ok) {
-      return NextResponse.json(
-        {
-          error: result.message,
-          needsActivation: result.needsActivation,
-        },
-        { status: 502 },
-      );
-    }
-
-    return NextResponse.json({ ok: true, delivered: true });
-  } catch (error) {
-    const detail =
-      error instanceof Error
-        ? error.message
-        : "Unable to send your enquiry right now. Please try again.";
-    return NextResponse.json({ error: detail }, { status: 502 });
+  const apiKey = process.env.RESEND_API_KEY?.trim();
+  if (!apiKey) {
+    return NextResponse.json(
+      { error: "Email delivery is not configured." },
+      { status: 503 },
+    );
   }
+
+  const resend = new Resend(apiKey);
+  const from =
+    process.env.CONTACT_FROM_EMAIL?.trim() ||
+    "Oravi Lux <onboarding@resend.dev>";
+
+  const { data, error } = await resend.emails.send(
+    {
+      from,
+      to: [RECIPIENT],
+      replyTo: email,
+      subject: `Oravi Lux enquiry — ${name}`,
+      text: buildEmailText({ name, company, email, message }),
+      html: buildEmailHtml({ name, company, email, message }),
+    },
+    {
+      idempotencyKey: `contact-form/${randomUUID()}`,
+    },
+  );
+
+  if (error) {
+    return NextResponse.json({ error: error.message }, { status: 502 });
+  }
+
+  return NextResponse.json({ ok: true, delivered: true, id: data?.id });
 }
