@@ -1,16 +1,37 @@
+import type { Metadata } from "next";
 import { getTranslations, setRequestLocale } from "next-intl/server";
 import { Container } from "@/components/layout/Container";
+import { JsonLd } from "@/components/seo/JsonLd";
 import { Button } from "@/components/ui/Button";
 import { Reveal } from "@/components/ui/Reveal";
+import {
+  breadcrumbJsonLd,
+  buildPageMetadata,
+  jsonLdGraph,
+  webPageJsonLd,
+} from "@/lib/seo";
 
 type Props = {
   params: Promise<{ locale: string }>;
 };
 
+export async function generateMetadata({ params }: Props): Promise<Metadata> {
+  const { locale } = await params;
+  const t = await getTranslations({ locale, namespace: "seo" });
+  return buildPageMetadata({
+    locale,
+    path: "/about",
+    title: t("aboutTitle"),
+    description: t("aboutDescription"),
+    absoluteTitle: true,
+  });
+}
+
 export default async function AboutPage({ params }: Props) {
   const { locale } = await params;
   setRequestLocale(locale);
   const t = await getTranslations("aboutPage");
+  const tn = await getTranslations("nav");
 
   const pillars = [
     { title: t("missionTitle"), body: t("missionBody") },
@@ -20,6 +41,21 @@ export default async function AboutPage({ params }: Props) {
 
   return (
     <section className="lux-wash pt-28 pb-24 md:pt-36 md:pb-32">
+      <JsonLd
+        data={jsonLdGraph([
+          webPageJsonLd({
+            locale,
+            path: "/about",
+            title: t("lead"),
+            description: t("subtitle"),
+            type: "AboutPage",
+          }),
+          breadcrumbJsonLd(locale, [
+            { name: tn("home"), path: "" },
+            { name: tn("about"), path: "/about" },
+          ]),
+        ])}
+      />
       <Container className="max-w-4xl">
         <Reveal>
           <p className="text-[0.65rem] tracking-[0.28em] text-accent uppercase">

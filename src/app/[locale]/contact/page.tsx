@@ -1,48 +1,54 @@
-"use client";
+import type { Metadata } from "next";
+import { getTranslations, setRequestLocale } from "next-intl/server";
+import { ContactPageContent } from "@/components/contact/ContactPageContent";
+import { JsonLd } from "@/components/seo/JsonLd";
+import {
+  breadcrumbJsonLd,
+  buildPageMetadata,
+  jsonLdGraph,
+  webPageJsonLd,
+} from "@/lib/seo";
 
-import { useTranslations } from "next-intl";
-import { ContactForm } from "@/components/contact/ContactForm";
-import { ContactHero } from "@/components/contact/ContactHero";
-import { Container } from "@/components/layout/Container";
-import { Reveal } from "@/components/ui/Reveal";
+type Props = {
+  params: Promise<{ locale: string }>;
+};
 
-export default function ContactPage() {
-  const t = useTranslations("contactPage");
-  const site = useTranslations("site");
+export async function generateMetadata({ params }: Props): Promise<Metadata> {
+  const { locale } = await params;
+  const t = await getTranslations({ locale, namespace: "seo" });
+  return buildPageMetadata({
+    locale,
+    path: "/contact",
+    title: t("contactTitle"),
+    description: t("contactDescription"),
+    absoluteTitle: true,
+  });
+}
+
+export default async function ContactPage({ params }: Props) {
+  const { locale } = await params;
+  setRequestLocale(locale);
+  const t = await getTranslations("contactPage");
+  const tn = await getTranslations("nav");
 
   return (
     <>
-      <ContactHero />
-      <section className="lux-wash pt-20 pb-24 md:pt-28 md:pb-32">
-        <Container>
-          <div className="grid gap-12 lg:grid-cols-2 lg:gap-20">
-            <Reveal>
-              <p className="text-muted">{t("subtitle")}</p>
-              <div className="mt-10 space-y-4 text-sm text-muted">
-                <p>
-                  <span className="text-foreground">{t("office")}</span>
-                  <br />
-                  {site("address")}
-                </p>
-                <p>
-                  <span className="text-foreground">{t("phone")}</span>
-                  <br />
-                  {site("phone")}
-                </p>
-                <p>
-                  <span className="text-foreground">{t("hours")}</span>
-                  <br />
-                  {site("hours")}
-                </p>
-              </div>
-            </Reveal>
-
-            <Reveal delay={0.08}>
-              <ContactForm />
-            </Reveal>
-          </div>
-        </Container>
-      </section>
+      <JsonLd
+        data={jsonLdGraph([
+          webPageJsonLd({
+            locale,
+            path: "/contact",
+            title: t("title"),
+            description: t("subtitle"),
+            type: "ContactPage",
+          }),
+          breadcrumbJsonLd(locale, [
+            { name: tn("home"), path: "" },
+            { name: tn("contact"), path: "/contact" },
+          ]),
+        ])}
+      />
+      <ContactPageContent />
     </>
   );
 }

@@ -21,7 +21,7 @@ export function Hero() {
           muted
           loop
           playsInline
-          preload="auto"
+          preload="metadata"
           aria-hidden="true"
         />
         <div className="media-scrim-hero pointer-events-none absolute inset-0" />

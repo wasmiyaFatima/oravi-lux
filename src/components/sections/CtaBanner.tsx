@@ -15,7 +15,7 @@ export function CtaBanner() {
     <section className="relative min-h-[70dvh] overflow-hidden border-t border-border md:min-h-[78dvh]">
       <Image
         src={images.cta}
-        alt=""
+        alt={t("title")}
         fill
         className="object-cover object-[55%_38%] md:object-[72%_top]"
         sizes="100vw"

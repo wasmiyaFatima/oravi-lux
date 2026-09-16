@@ -79,7 +79,7 @@ export function Frequent() {
                 <div className="relative aspect-[16/10] overflow-hidden">
                   <Image
                     src={image}
-                    alt=""
+                    alt={item.title}
                     fill
                     className="object-cover transition-transform duration-[1.2s] ease-out group-hover:scale-110"
                     sizes="(max-width: 1024px) 50vw, 33vw"

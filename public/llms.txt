@@ -1,0 +1,39 @@
+# Oravi Lux
+
+> Luxury concierge and hospitality partner in Luxembourg. Bespoke concierge, corporate support and VIP hospitality.
+
+Oravi Lux is a discreet partner for people and organizations who expect every detail to be handled with care.
+
+- Name: Oravi Lux
+- Also known as: OraviLux, Oravi, Oravi Lux Luxembourg
+- Type: Concierge and hospitality services
+- Area served: Luxembourg
+- Languages: English, French, German
+- Email: contact@oravilux.com
+- Website: https://www.oravilux.com
+
+## Languages
+
+- English: https://www.oravilux.com/en
+- Français: https://www.oravilux.com/fr
+- Deutsch: https://www.oravilux.com/de
+
+## Pages
+
+- [Home](https://www.oravilux.com/en): Luxury concierge and hospitality in Luxembourg
+- [About](https://www.oravilux.com/en/about): Company overview — luxury service, local precision
+- [Contact](https://www.oravilux.com/en/contact): Confidential consultation
+
+## Services
+
+- [Luxury concierge](https://www.oravilux.com/en/services/concierge): Everyday requests. Exceptional execution.
+- [Corporate concierge](https://www.oravilux.com/en/services/corporate-concierge): Executive productivity without operational friction
+- [Hospitality](https://www.oravilux.com/en/services/hospitality): First impressions, impeccably managed
+- [Personal assistance](https://www.oravilux.com/en/services/personal-assistance): Your personal office for life admin
+- [Executive & family office](https://www.oravilux.com/en/services/executive-family-office): Confidential support for complex lives
+- [Luxury travel](https://www.oravilux.com/en/services/luxury-travel): Travel designed around your time
+- [Events & experiences](https://www.oravilux.com/en/services/events): Memorable moments, flawlessly hosted
+
+## Other languages
+
+French and German versions of every page use the same path with `/fr` or `/de` instead of `/en`.

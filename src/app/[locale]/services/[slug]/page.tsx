@@ -1,11 +1,21 @@
+import type { Metadata } from "next";
 import Image from "next/image";
 import { getTranslations, setRequestLocale } from "next-intl/server";
 import { notFound } from "next/navigation";
 import { Container } from "@/components/layout/Container";
+import { JsonLd } from "@/components/seo/JsonLd";
 import { Button } from "@/components/ui/Button";
 import { Reveal } from "@/components/ui/Reveal";
 import { serviceSlugs, type ServiceSlug } from "@/i18n/routing";
 import { serviceImages } from "@/lib/images";
+import {
+  SITE_URL,
+  breadcrumbJsonLd,
+  buildPageMetadata,
+  jsonLdGraph,
+  serviceJsonLd,
+  webPageJsonLd,
+} from "@/lib/seo";
 
 type Props = {
   params: Promise<{ locale: string; slug: string }>;
@@ -15,19 +25,31 @@ export function generateStaticParams() {
   return serviceSlugs.map((slug) => ({ slug }));
 }
 
-export async function generateMetadata({ params }: Props) {
+export const dynamicParams = false;
+
+export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const { locale, slug } = await params;
   if (!serviceSlugs.includes(slug as ServiceSlug)) {
-    return {};
+    return { robots: { index: false, follow: false } };
   }
+  const serviceSlug = slug as ServiceSlug;
   const t = await getTranslations({
     locale,
-    namespace: `services.${slug as ServiceSlug}`,
+    namespace: `seo.services.${serviceSlug}`,
   });
-  return {
-    title: t("title"),
-    description: t("body").slice(0, 160),
-  };
+  const title = t("title");
+  const description = t("description");
+  const path = `/services/${serviceSlug}`;
+
+  return buildPageMetadata({
+    locale,
+    path,
+    title,
+    description,
+    image: `${SITE_URL}${serviceImages[serviceSlug]}`,
+    imageAlt: title,
+    absoluteTitle: true,
+  });
 }
 
 export default async function ServicePage({ params }: Props) {
@@ -43,9 +65,32 @@ export default async function ServicePage({ params }: Props) {
   const points = t.raw("points") as string[];
   const approachSteps = t.raw("approachSteps") as string[];
   const benefit = t("benefit");
+  const path = `/services/${serviceSlug}`;
 
   return (
     <article>
+      <JsonLd
+        data={jsonLdGraph([
+          webPageJsonLd({
+            locale,
+            path,
+            title: t("title"),
+            description: t("subtitle"),
+            image: serviceImages[serviceSlug],
+          }),
+          breadcrumbJsonLd(locale, [
+            { name: tn("home"), path: "" },
+            { name: t("title"), path },
+          ]),
+          serviceJsonLd({
+            locale,
+            name: t("title"),
+            description: t("subtitle"),
+            path,
+            image: serviceImages[serviceSlug],
+          }),
+        ])}
+      />
       <section className="relative min-h-[78vh] overflow-hidden pt-20 md:min-h-[88vh]">
         <Image
           src={serviceImages[serviceSlug]}

@@ -1,7 +1,43 @@
 {
   "meta": {
     "title": "Oravi Lux | Concierge- & Hospitality-Partner in Luxemburg",
-    "description": "Ihr vertrauenswürdiger Concierge- und Hospitality-Partner in Luxemburg. Maßgeschneiderter Concierge, Corporate Support und VIP-Hospitality."
+    "description": "Luxury Concierge und Hospitality in Luxemburg. Maßgeschneiderter Concierge, Corporate Support und VIP-Hospitality für Privatkunden und Führungsteams."
+  },
+  "seo": {
+    "aboutTitle": "Über Oravi Lux | Concierge-Partner in Luxemburg",
+    "aboutDescription": "Oravi Lux ist ein diskreter Concierge- und Hospitality-Partner in Luxemburg. Luxusservice mit lokaler Präzision für Privatkunden, Führungskräfte und Organisationen.",
+    "contactTitle": "Kontakt Oravi Lux | Concierge-Beratung in Luxemburg",
+    "contactDescription": "Starten Sie eine vertrauliche Beratung mit Oravi Lux. Concierge- und Hospitality-Unterstützung in Luxemburg, mit einem festen Ansprechpartner vom ersten Gespräch an.",
+    "services": {
+      "concierge": {
+        "title": "Luxury-Concierge-Services in Luxemburg | Oravi Lux",
+        "description": "Alltäglicher Concierge in Luxemburg: persönliche Assistance, Lifestyle-Management, VIP-Arrangements und Reservierungen — mit außergewöhnlicher Sorgfalt."
+      },
+      "corporate-concierge": {
+        "title": "Corporate Concierge in Luxemburg | Oravi Lux",
+        "description": "Corporate Concierge in Luxemburg für Führungsteams und Besuchskunden: Executive Support, Geschäftsreisen, Meetings und Kundenhospitality."
+      },
+      "hospitality": {
+        "title": "Hospitality-Services in Luxemburg | Oravi Lux",
+        "description": "VIP- und Corporate-Hospitality in Luxemburg: Gästemanagement, Luxusunterkünfte, Flughafenservices und Chauffeure — erster Eindruck makellos organisiert."
+      },
+      "personal-assistance": {
+        "title": "Persönliche Assistance in Luxemburg | Oravi Lux",
+        "description": "Persönliche Assistance in Luxemburg für Alltag, Termine, Haushalt und Lifestyle-Organisation — über einen festen Concierge-Kontakt."
+      },
+      "executive-family-office": {
+        "title": "Executive- & Family-Office-Support in Luxemburg | Oravi Lux",
+        "description": "Vertraulicher Executive- und Family-Office-Support in Luxemburg: Kalender, Reisen, Events und sensible Anfragen für komplexe Lebenssituationen."
+      },
+      "luxury-travel": {
+        "title": "Luxury Travel Management in Luxemburg | Oravi Lux",
+        "description": "Luxury Travel Management in Luxemburg: Privatjet-Koordination, Geschäftsreisen, Hotels und Concierge-Erlebnisse, abgestimmt auf Ihre Zeit."
+      },
+      "events": {
+        "title": "Events & Experiences in Luxemburg | Oravi Lux",
+        "description": "Private und Corporate Events in Luxemburg: Location, Gästeweg und Hospitality vor Ort für erinnerungswürdige Anlässe, tadellos ausgerichtet."
+      }
+    }
   },
   "nav": {
     "home": "Startseite",

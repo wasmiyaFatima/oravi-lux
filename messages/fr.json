@@ -1,7 +1,43 @@
 {
   "meta": {
-    "title": "Oravi Lux | Conciergerie et hospitalité au Luxembourg",
-    "description": "Conciergerie sur mesure, assistance exécutive et gestion de l’hospitalité au Luxembourg et dans la Grande Région."
+    "title": "Oravi Lux | Conciergerie et hospitalité de luxe au Luxembourg",
+    "description": "Conciergerie de luxe et hospitalité au Luxembourg. Conciergerie sur mesure, soutien aux entreprises et hospitalité VIP pour particuliers et équipes dirigeantes."
+  },
+  "seo": {
+    "aboutTitle": "À propos d’Oravi Lux | Conciergerie au Luxembourg",
+    "aboutDescription": "Oravi Lux est un partenaire discret de conciergerie et d’hospitalité au Luxembourg. Service de luxe, précision locale, pour particuliers, dirigeants et organisations.",
+    "contactTitle": "Contact Oravi Lux | Consultation conciergerie au Luxembourg",
+    "contactDescription": "Demandez une consultation confidentielle avec Oravi Lux. Conciergerie et hospitalité au Luxembourg, avec un interlocuteur dédié dès le premier échange.",
+    "services": {
+      "concierge": {
+        "title": "Conciergerie de luxe au Luxembourg | Oravi Lux",
+        "description": "Conciergerie au quotidien au Luxembourg : assistance personnelle, gestion du mode de vie, dispositions VIP et réservations — exécutées avec un soin exceptionnel."
+      },
+      "corporate-concierge": {
+        "title": "Conciergerie d’entreprise au Luxembourg | Oravi Lux",
+        "description": "Conciergerie d’entreprise au Luxembourg pour équipes dirigeantes et clients en visite : soutien exécutif, voyages d’affaires, réunions et hospitalité clients."
+      },
+      "hospitality": {
+        "title": "Hospitalité haut de gamme au Luxembourg | Oravi Lux",
+        "description": "Hospitalité VIP et d’entreprise au Luxembourg : accueil des invités, hébergements, services aéroport et chauffeurs — des premières impressions impeccables."
+      },
+      "personal-assistance": {
+        "title": "Assistance personnelle au Luxembourg | Oravi Lux",
+        "description": "Assistance personnelle au Luxembourg : tâches quotidiennes, agenda, gestion de la maison et organisation de vie, via un interlocuteur concierge dédié."
+      },
+      "executive-family-office": {
+        "title": "Soutien exécutif et family office au Luxembourg | Oravi Lux",
+        "description": "Soutien confidentiel aux dirigeants et family offices au Luxembourg : agenda, voyages, événements et demandes sensibles, pour des vies complexes."
+      },
+      "luxury-travel": {
+        "title": "Voyages de luxe au Luxembourg | Oravi Lux",
+        "description": "Gestion de voyages de luxe au Luxembourg : jets privés, voyages d’affaires, hôtels et expériences concierge pensés autour de votre temps."
+      },
+      "events": {
+        "title": "Événements et expériences au Luxembourg | Oravi Lux",
+        "description": "Événements privés et d’entreprise au Luxembourg : lieu, parcours des invités et hospitalité sur site pour des moments mémorables, parfaitement orchestrés."
+      }
+    }
   },
   "nav": {
     "home": "Accueil",

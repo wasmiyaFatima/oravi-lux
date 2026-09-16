@@ -45,7 +45,7 @@ export function Intro() {
             <div className="relative aspect-[4/5] overflow-hidden rounded-xl md:aspect-[5/6] md:rounded-2xl">
               <Image
                 src={images.intro}
-                alt=""
+                alt={t("title")}
                 fill
                 className="object-cover object-center"
                 sizes="(max-width: 1024px) 100vw, 45vw"

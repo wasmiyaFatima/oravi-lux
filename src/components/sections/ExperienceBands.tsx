@@ -44,7 +44,7 @@ export function ExperienceBands() {
             >
               <Image
                 src={band.image}
-                alt=""
+                alt={t(`${band.key}.title`)}
                 fill
                 className="object-cover transition-transform duration-[1.4s] ease-out group-hover:scale-105"
                 sizes="(max-width: 1024px) 100vw, 33vw"
