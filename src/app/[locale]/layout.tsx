@@ -10,6 +10,7 @@ import { Header } from "@/components/layout/Header";
 import { JsonLd } from "@/components/seo/JsonLd";
 import { routing, serviceSlugs } from "@/i18n/routing";
 import {
+  GOOGLE_SITE_VERIFICATION,
   LOGO_HEIGHT,
   LOGO_PATH,
   LOGO_WIDTH,
@@ -67,7 +68,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const title = t("title");
   const description = t("description");
   const ogImage = defaultOgImage();
-  const googleVerification = process.env.NEXT_PUBLIC_GOOGLE_SITE_VERIFICATION?.trim();
+  const googleVerification = GOOGLE_SITE_VERIFICATION;
   const bingVerification = process.env.NEXT_PUBLIC_BING_SITE_VERIFICATION?.trim();
 
   return {

@@ -7,6 +7,11 @@ export const SITE_URL =
   process.env.NEXT_PUBLIC_SITE_URL?.replace(/\/$/, "") ??
   "https://www.oravilux.com";
 
+/** Search Console URL-prefix token. Public by design (emitted in HTML). */
+export const GOOGLE_SITE_VERIFICATION =
+  process.env.NEXT_PUBLIC_GOOGLE_SITE_VERIFICATION?.trim() ||
+  "qz29jYtZzxoFRZSx7ax1IdUTtSu2c4DPn1cYiBQYWHM";
+
 /** Official brand as shown on the site and in SERP titles. */
 export const SITE_NAME = "Oravi Lux";
 
