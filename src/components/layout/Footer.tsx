@@ -79,7 +79,8 @@ export async function Footer() {
       </Container>
       <Container className="flex flex-col gap-4 border-t border-white/10 py-6 text-xs text-on-dark-muted md:flex-row md:justify-between">
         <p>
-          Copyright {new Date().getFullYear()} {t("brand")}. {t("rights")}
+          Copyright {new Date().getFullYear()} {t("brand")} ({t("brandCompact")}).{" "}
+          {t("rights")}
         </p>
         <div className="flex gap-6">
           <span>{t("privacy")}</span>

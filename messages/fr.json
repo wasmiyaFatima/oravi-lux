@@ -1,6 +1,6 @@
 {
   "meta": {
-    "title": "Oravi Lux | Conciergerie et hospitalité de luxe au Luxembourg",
+    "title": "Oravi Lux | OraviLux — Conciergerie et hospitalité de luxe au Luxembourg",
     "description": "Conciergerie de luxe et hospitalité au Luxembourg. Conciergerie sur mesure, soutien aux entreprises et hospitalité VIP pour particuliers et équipes dirigeantes."
   },
   "seo": {
@@ -655,6 +655,7 @@
   "footer": {
     "tagline": "Votre partenaire de confiance en conciergerie et hospitalité au Luxembourg. Conciergerie sur mesure, soutien aux entreprises et services exécutifs.",
     "brand": "Oravi Lux",
+    "brandCompact": "OraviLux",
     "navigation": "Navigation",
     "contact": "Contact",
     "privacy": "Politique de confidentialité",

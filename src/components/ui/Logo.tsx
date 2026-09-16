@@ -32,7 +32,7 @@ export function Logo({ className = "", size = "nav" }: LogoProps) {
     >
       <Image
         src="/oravi-crest.png"
-        alt="Oravi Lux"
+        alt="Oravi Lux (OraviLux)"
         width={dim.width}
         height={dim.height}
         className={`${dim.className} object-contain object-left`}

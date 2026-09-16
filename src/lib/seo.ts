@@ -7,22 +7,29 @@ export const SITE_URL =
   process.env.NEXT_PUBLIC_SITE_URL?.replace(/\/$/, "") ??
   "https://www.oravilux.com";
 
+/** Official brand as shown on the site and in SERP titles. */
 export const SITE_NAME = "Oravi Lux";
 
-/** One-word and two-word brand forms Google should treat as the same entity. */
+/** Compact/domain form of the same brand (oravilux.com). */
+export const SITE_COMPACT_NAME = "OraviLux";
+
+/**
+ * Same entity, different spellings people actually type.
+ * Do not include "Oravi" alone — that matches a Finnish village.
+ */
 export const SITE_ALTERNATE_NAMES = [
-  "OraviLux",
-  "Oravi",
-  "Oravi Lux Luxembourg",
+  SITE_COMPACT_NAME,
+  "ORAVI LUX",
+  "ORAVILUX",
 ] as const;
 
-export const BRAND_KEYWORDS = [
-  "Oravi Lux",
-  "OraviLux",
-  "Oravi",
-  "Oravi Luxembourg",
-  "Oravi Lux concierge",
-];
+/** Brand query variants for metadata.keywords (Bing still uses this field). */
+export const SITE_KEYWORDS = [
+  SITE_NAME,
+  SITE_COMPACT_NAME,
+  "ORAVI LUX",
+  "ORAVILUX",
+] as const;
 
 /** Only fields consistent across locales (no conflicting or placeholder NAP). */
 export const SITE_EMAIL = "contact@oravilux.com";
@@ -40,9 +47,10 @@ export const OG_IMAGE_PATH = "/luxembourg/bridge.jpg";
 export const OG_IMAGE_WIDTH = 1536;
 export const OG_IMAGE_HEIGHT = 1024;
 
-export const LOGO_PATH = "/oravi-lux.png";
-export const LOGO_WIDTH = 574;
-export const LOGO_HEIGHT = 369;
+/** Square crest used for search favicon, PWA icons, and Organization.logo. */
+export const LOGO_PATH = "/icon-512.png";
+export const LOGO_WIDTH = 512;
+export const LOGO_HEIGHT = 512;
 
 const ogLocaleByLang: Record<Locale, string> = {
   en: "en_US",
@@ -154,7 +162,7 @@ export function buildPageMetadata(input: {
   return {
     title: input.absoluteTitle ? { absolute: input.title } : input.title,
     description: input.description,
-    keywords: BRAND_KEYWORDS,
+    keywords: [...SITE_KEYWORDS],
     alternates,
     robots: indexableRobots(),
     openGraph: {
@@ -239,7 +247,7 @@ export function organizationJsonLd(input?: {
     email: SITE_EMAIL,
     ...(input?.description ? { description: input.description } : {}),
     disambiguatingDescription:
-      "Luxury concierge and hospitality company in Luxembourg. Also written OraviLux or Oravi.",
+      "Luxury concierge and hospitality company in Luxembourg.",
     brand: {
       "@type": "Brand",
       name: SITE_NAME,

@@ -10,7 +10,7 @@ import {
 export default function manifest(): MetadataRoute.Manifest {
   return {
     name: SITE_NAME,
-    short_name: "Oravi",
+    short_name: "OraviLux",
     description:
       "Your trusted concierge and hospitality partner in Luxembourg. Bespoke concierge, corporate support and VIP hospitality.",
     start_url: "/en",
@@ -22,12 +22,17 @@ export default function manifest(): MetadataRoute.Manifest {
     icons: [
       {
         src: "/favicon.png",
-        sizes: "32x32",
+        sizes: "48x48",
         type: "image/png",
       },
       {
         src: "/apple-icon.png",
         sizes: "180x180",
+        type: "image/png",
+      },
+      {
+        src: "/icon-192.png",
+        sizes: "192x192",
         type: "image/png",
       },
       {

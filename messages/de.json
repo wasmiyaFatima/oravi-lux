@@ -1,6 +1,6 @@
 {
   "meta": {
-    "title": "Oravi Lux | Concierge- & Hospitality-Partner in Luxemburg",
+    "title": "Oravi Lux | OraviLux — Concierge- & Hospitality-Partner in Luxemburg",
     "description": "Luxury Concierge und Hospitality in Luxemburg. Maßgeschneiderter Concierge, Corporate Support und VIP-Hospitality für Privatkunden und Führungsteams."
   },
   "seo": {
@@ -654,6 +654,7 @@
   "footer": {
     "tagline": "Ihr vertrauenswürdiger Concierge- und Hospitality-Partner in Luxemburg. Maßgeschneiderter Concierge, Corporate Support und VIP-Hospitality.",
     "brand": "Oravi Lux",
+    "brandCompact": "OraviLux",
     "navigation": "Navigation",
     "contact": "Kontakt",
     "privacy": "Datenschutzrichtlinie",

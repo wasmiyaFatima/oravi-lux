@@ -15,7 +15,7 @@ import {
   LOGO_WIDTH,
   OG_IMAGE_HEIGHT,
   OG_IMAGE_WIDTH,
-  BRAND_KEYWORDS,
+  SITE_KEYWORDS,
   SITE_NAME,
   SITE_SAME_AS,
   SITE_URL,
@@ -81,7 +81,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
       template: `%s | ${SITE_NAME}`,
     },
     description,
-    keywords: BRAND_KEYWORDS,
+    keywords: [...SITE_KEYWORDS],
     ...(googleVerification || bingVerification
       ? {
           verification: {
@@ -122,7 +122,8 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
     icons: {
       icon: [
         { url: "/favicon.ico", sizes: "any" },
-        { url: "/favicon.png", type: "image/png", sizes: "32x32" },
+        { url: "/favicon.png", type: "image/png", sizes: "48x48" },
+        { url: "/icon-192.png", type: "image/png", sizes: "192x192" },
         {
           url: LOGO_PATH,
           type: "image/png",
