@@ -10,6 +10,15 @@ export default function robots(): MetadataRoute.Robots {
   return {
     rules: [
       {
+        userAgent: "Googlebot",
+        allow: "/",
+        disallow: ["/api/", ...pausedPaths],
+      },
+      {
+        userAgent: "Googlebot-Image",
+        allow: "/",
+      },
+      {
         userAgent: "*",
         allow: "/",
         disallow: ["/api/", ...pausedPaths],

@@ -4,15 +4,18 @@ import { routing } from "./i18n/routing";
 
 const intlMiddleware = createMiddleware(routing);
 
-/** Discord (and similar) follow one redirect, then stop. `/` 307 → `/en` drops OG tags. */
-const LINK_CRAWLERS =
-  /Discordbot|Twitterbot|facebookexternalhit|Facebot|LinkedInBot|Slackbot|Slack-ImgProxy|WhatsApp|TelegramBot|Iframely|Embedly|Pinterest/i;
+/**
+ * Google binds one favicon to the hostname homepage (`https://oravilux.com/`).
+ * A 307 from `/` to `/en` can leave that homepage without a snippet or a fresh icon.
+ */
+const CRAWLERS =
+  /Googlebot|Googlebot-Image|AdsBot-Google|bingbot|BingPreview|DuckDuckBot|YandexBot|Discordbot|Twitterbot|facebookexternalhit|Facebot|LinkedInBot|Slackbot|WhatsApp|TelegramBot|Iframely|Embedly|Pinterest/i;
 
 export default function middleware(request: NextRequest) {
   const { pathname } = request.nextUrl;
   const ua = request.headers.get("user-agent") ?? "";
 
-  if (pathname === "/" && LINK_CRAWLERS.test(ua)) {
+  if (pathname === "/" && CRAWLERS.test(ua)) {
     const url = request.nextUrl.clone();
     url.pathname = "/en";
     return NextResponse.rewrite(url);

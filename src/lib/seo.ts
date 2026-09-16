@@ -52,9 +52,6 @@ export const LOGO_PATH = "/icon-512.png";
 export const LOGO_WIDTH = 512;
 export const LOGO_HEIGHT = 512;
 
-/** Bust Discord/Google favicon caches after replacing the AV monogram. */
-export const ICON_VERSION = "crest";
-
 const ogLocaleByLang: Record<Locale, string> = {
   en: "en_US",
   fr: "fr_FR",
