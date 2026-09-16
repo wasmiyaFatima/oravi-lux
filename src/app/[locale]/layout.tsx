@@ -10,6 +10,7 @@ import { Header } from "@/components/layout/Header";
 import { JsonLd } from "@/components/seo/JsonLd";
 import { routing, serviceSlugs } from "@/i18n/routing";
 import {
+  ICON_VERSION,
   LOGO_HEIGHT,
   LOGO_PATH,
   LOGO_WIDTH,
@@ -121,16 +122,30 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
     },
     icons: {
       icon: [
-        { url: "/favicon.ico", sizes: "any" },
-        { url: "/favicon.png", type: "image/png", sizes: "48x48" },
-        { url: "/icon-192.png", type: "image/png", sizes: "192x192" },
+        { url: `/favicon.ico?v=${ICON_VERSION}`, sizes: "any" },
         {
-          url: LOGO_PATH,
+          url: `/favicon.png?v=${ICON_VERSION}`,
+          type: "image/png",
+          sizes: "48x48",
+        },
+        {
+          url: `/icon-192.png?v=${ICON_VERSION}`,
+          type: "image/png",
+          sizes: "192x192",
+        },
+        {
+          url: `${LOGO_PATH}?v=${ICON_VERSION}`,
           type: "image/png",
           sizes: `${LOGO_WIDTH}x${LOGO_HEIGHT}`,
         },
       ],
-      apple: [{ url: "/apple-icon.png", type: "image/png", sizes: "180x180" }],
+      apple: [
+        {
+          url: `/apple-icon.png?v=${ICON_VERSION}`,
+          type: "image/png",
+          sizes: "180x180",
+        },
+      ],
     },
     robots: indexableRobots(),
   };

@@ -42,15 +42,18 @@ export const SITE_SAME_AS = [
 export const ORGANIZATION_ID = `${SITE_URL}/#organization`;
 export const WEBSITE_ID = `${SITE_URL}/#website`;
 
-/** Default share image (Adolphe Bridge photograph). Actual pixel size. */
-export const OG_IMAGE_PATH = "/luxembourg/bridge.jpg";
-export const OG_IMAGE_WIDTH = 1536;
-export const OG_IMAGE_HEIGHT = 1024;
+/** Default share image — real JPEG so Discord/Slack accept the MIME type. */
+export const OG_IMAGE_PATH = "/og.jpg";
+export const OG_IMAGE_WIDTH = 1200;
+export const OG_IMAGE_HEIGHT = 630;
 
 /** Square crest used for search favicon, PWA icons, and Organization.logo. */
 export const LOGO_PATH = "/icon-512.png";
 export const LOGO_WIDTH = 512;
 export const LOGO_HEIGHT = 512;
+
+/** Bust Discord/Google favicon caches after replacing the AV monogram. */
+export const ICON_VERSION = "crest";
 
 const ogLocaleByLang: Record<Locale, string> = {
   en: "en_US",
