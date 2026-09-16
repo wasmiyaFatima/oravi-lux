@@ -27,6 +27,11 @@ export const BRAND_KEYWORDS = [
 /** Only fields consistent across locales (no conflicting or placeholder NAP). */
 export const SITE_EMAIL = "contact@oravilux.com";
 
+/** Confirmed public profile ranking for the brand query. */
+export const SITE_SAME_AS = [
+  "https://www.instagram.com/oravi_lux/",
+] as const;
+
 export const ORGANIZATION_ID = `${SITE_URL}/#organization`;
 export const WEBSITE_ID = `${SITE_URL}/#website`;
 
@@ -230,6 +235,7 @@ export function organizationJsonLd(input?: {
     name: SITE_NAME,
     alternateName: [...SITE_ALTERNATE_NAMES],
     url: SITE_URL,
+    sameAs: [...SITE_SAME_AS],
     email: SITE_EMAIL,
     ...(input?.description ? { description: input.description } : {}),
     disambiguatingDescription:
