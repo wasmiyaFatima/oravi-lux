@@ -17,6 +17,7 @@ import {
   OG_IMAGE_WIDTH,
   BRAND_KEYWORDS,
   SITE_NAME,
+  SITE_SAME_AS,
   SITE_URL,
   defaultOgImage,
   htmlLang,
@@ -156,6 +157,9 @@ export default async function LocaleLayout({ children, params }: Props) {
       className={`${cormorant.variable} ${dmSans.variable} h-full antialiased`}
       suppressHydrationWarning
     >
+      <head>
+        <link rel="me" href={SITE_SAME_AS[0]} />
+      </head>
       <body
         className="min-h-full bg-background font-sans text-foreground"
         suppressHydrationWarning
